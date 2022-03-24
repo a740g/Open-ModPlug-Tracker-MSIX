@@ -1,4 +1,4 @@
-# Open ModPlug Tracker-MSIX
+# Open ModPlug Tracker MSIX Package
 
 This is the [MSIX package](https://www.microsoft.com/store/productId/9NNZNNJZD1QR) source for [Open ModPlug Tracker](https://github.com/OpenMPT/openmpt).
 
