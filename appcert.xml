@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type='text/xsl' href='C:\ProgramData\Windows App Certification Kit\results.xsl'?>
-<REPORT xml:lang="en-IN" OVERALL_RESULT="PASS" VERSION="10.0.19041.685" LATEST_VERSION="" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="x64" SecureBoot="FALSE" APP_TYPE="Centennial" PUBLISHER_DISPLAY_NAME="CN=81CFCF59-AA2B-4985-97BF-4E6A6C36B7D6" APP_NAME="30492SamuelGomes.OpenMPT" APP_VERSION="1.30.3.0" OSVERSION="10.0.22000.0" OS="Microsoft Windows 11 Home Single Language" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="16393" X64_ONLY="TRUE" VALIDATION_TYPE="CommandLine" ReportGenerationTime="24-03-2022 05:44:19 AM" ID="30c3f692c83ae1170d23c5ce04907cc0">
+<REPORT xml:lang="en-IN" OVERALL_RESULT="PASS" VERSION="10.0.19041.685" LATEST_VERSION="" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="x64" SecureBoot="FALSE" APP_TYPE="Centennial" PUBLISHER_DISPLAY_NAME="CN=81CFCF59-AA2B-4985-97BF-4E6A6C36B7D6" APP_NAME="30492SamuelGomes.OpenMPT" APP_VERSION="1.30.3.0" OSVERSION="10.0.22000.0" OS="Microsoft Windows 11 Home Single Language" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="16393" X64_ONLY="TRUE" VALIDATION_TYPE="CommandLine" ReportGenerationTime="27-03-2022 05:39:40 AM" ID="522f2b5da82b3ca6df1b832c4f22df53">
   <REQUIREMENTS>
     <REQUIREMENT NUMBER="3" TITLE="Digitally signed file test" RATIONALE="An Authenticode digital signature allows users to be sure that the software is genuine. It also allows detection if a file has been tampered with e.g. infected by a virus.">
-      <TEST INDEX="2" NAME="Install signed driver and executable files" DESCRIPTION="Install signed driver and executable files." EXECUTIONTIME="00h:00m:01s.98ms" OPTIONAL="TRUE">
+      <TEST INDEX="2" NAME="Install signed driver and executable files" DESCRIPTION="Install signed driver and executable files." EXECUTIONTIME="00h:00m:01s.93ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
@@ -15,7 +15,7 @@
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="12" TITLE="Package compliance test" RATIONALE="The package does not satisfy Store compliance rules.">
-      <TEST INDEX="77" NAME="Application count" DESCRIPTION="One package should not define more than one app in the manifest." EXECUTIONTIME="00h:00m:00s.98ms" OPTIONAL="TRUE">
+      <TEST INDEX="77" NAME="Application count" DESCRIPTION="One package should not define more than one app in the manifest." EXECUTIONTIME="00h:00m:00s.96ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
@@ -23,15 +23,15 @@
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="87" NAME="File association verbs" DESCRIPTION="Registry validation that no registered file association verbs are installed." EXECUTIONTIME="00h:00m:00s.88ms" OPTIONAL="TRUE">
+      <TEST INDEX="87" NAME="File association verbs" DESCRIPTION="Registry validation that no registered file association verbs are installed." EXECUTIONTIME="00h:00m:00s.89ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="86" NAME="Registry checks" DESCRIPTION="Registry validation that drivers are not installed and NT Services are not installed." EXECUTIONTIME="00h:00m:00s.91ms" OPTIONAL="TRUE">
+      <TEST INDEX="86" NAME="Registry checks" DESCRIPTION="Registry validation that drivers are not installed and NT Services are not installed." EXECUTIONTIME="00h:00m:00s.88ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="91" NAME="Enterprise Features" DESCRIPTION="Check if any enterprise-only features are in the package." EXECUTIONTIME="00h:00m:00s.93ms" OPTIONAL="FALSE">
+      <TEST INDEX="91" NAME="Enterprise Features" DESCRIPTION="Check if any enterprise-only features are in the package." EXECUTIONTIME="00h:00m:00s.96ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
@@ -41,7 +41,7 @@
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="14" TITLE="Windows security features test" RATIONALE="Applications must opt-into Windows security features.">
-      <TEST INDEX="70" NAME="Banned file analyzer" DESCRIPTION="Analysis of application to detect known insecure files" EXECUTIONTIME="00h:00m:01s.15ms" OPTIONAL="FALSE">
+      <TEST INDEX="70" NAME="Banned file analyzer" DESCRIPTION="Analysis of application to detect known insecure files" EXECUTIONTIME="00h:00m:01s.13ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
@@ -51,33 +51,33 @@
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="19" TITLE="App manifest resources tests" RATIONALE="The App Package Manifest should have valid resources defined in the resources.pri file, as per the App Packaging Specification and App Manifest Schema.">
-      <TEST INDEX="45" NAME="App resources" DESCRIPTION="The package should have valid resources defined in the resources.pri file." EXECUTIONTIME="00h:00m:00s.69ms" OPTIONAL="TRUE">
+      <TEST INDEX="45" NAME="App resources" DESCRIPTION="The package should have valid resources defined in the resources.pri file." EXECUTIONTIME="00h:00m:00s.68ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="61" NAME="Branding" DESCRIPTION="App should not use the default images packed by windows SDK samples or Visual Studio." EXECUTIONTIME="00h:00m:01s.60ms" OPTIONAL="FALSE">
+      <TEST INDEX="61" NAME="Branding" DESCRIPTION="App should not use the default images packed by windows SDK samples or Visual Studio." EXECUTIONTIME="00h:00m:01s.62ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="20" TITLE="Debug configuration test" RATIONALE="The App should not install any debug binaries.">
-      <TEST INDEX="46" NAME="Debug configuration" DESCRIPTION="The App should not install any debug binaries." EXECUTIONTIME="00h:00m:01s.47ms" OPTIONAL="TRUE">
+      <TEST INDEX="46" NAME="Debug configuration" DESCRIPTION="The App should not install any debug binaries." EXECUTIONTIME="00h:00m:01s.52ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="23" TITLE="App Capabilities test" RATIONALE="Packages declaring special-use capabilities will have to provide justifications during the onboarding process.">
-      <TEST INDEX="52" NAME="Special use capabilities" DESCRIPTION="Packages declaring special-use capabilities will have to provide justifications during the onboarding process." EXECUTIONTIME="00h:00m:00s.98ms" OPTIONAL="FALSE">
+      <TEST INDEX="52" NAME="Special use capabilities" DESCRIPTION="Packages declaring special-use capabilities will have to provide justifications during the onboarding process." EXECUTIONTIME="00h:00m:00s.96ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="24" TITLE="Windows Runtime metadata validation" RATIONALE="Metadata needs to be conformant and consistent across all generation sources.">
-      <TEST INDEX="56" NAME="ExclusiveTo attribute" DESCRIPTION="A class must not implement an interface that is marked ExclusiveTo another class." EXECUTIONTIME="00h:00m:08s.10ms" OPTIONAL="FALSE">
+      <TEST INDEX="56" NAME="ExclusiveTo attribute" DESCRIPTION="A class must not implement an interface that is marked ExclusiveTo another class." EXECUTIONTIME="00h:00m:08s.32ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="57" NAME="Type location" DESCRIPTION="Types must be defined in the metadata file with the longest matching namespace." EXECUTIONTIME="00h:00m:00s.75ms" OPTIONAL="FALSE">
+      <TEST INDEX="57" NAME="Type location" DESCRIPTION="Types must be defined in the metadata file with the longest matching namespace." EXECUTIONTIME="00h:00m:00s.74ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
@@ -85,25 +85,25 @@
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="54" NAME="Type name correctness" DESCRIPTION="Only system types can be in the Windows namespace and no types can be in the global namespace." EXECUTIONTIME="00h:00m:00s.72ms" OPTIONAL="FALSE">
+      <TEST INDEX="54" NAME="Type name correctness" DESCRIPTION="Only system types can be in the Windows namespace and no types can be in the global namespace." EXECUTIONTIME="00h:00m:00s.74ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="58" NAME="General metadata correctness" DESCRIPTION="Metadata files must meet various requirements in order to be valid and correct." EXECUTIONTIME="00h:00m:07s.97ms" OPTIONAL="TRUE">
+      <TEST INDEX="58" NAME="General metadata correctness" DESCRIPTION="Metadata files must meet various requirements in order to be valid and correct." EXECUTIONTIME="00h:00m:08s.16ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="53" NAME="Properties" DESCRIPTION="Write-only and indexer properties may not be used. Corresponding getter and setter methods must match in type." EXECUTIONTIME="00h:00m:00s.74ms" OPTIONAL="FALSE">
+      <TEST INDEX="53" NAME="Properties" DESCRIPTION="Write-only and indexer properties may not be used. Corresponding getter and setter methods must match in type." EXECUTIONTIME="00h:00m:00s.72ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="25" TITLE="Package sanity test" RATIONALE="Validation of the app package contents to ensure correctness.">
-      <TEST INDEX="89" NAME="Archive files usage" DESCRIPTION="Packages should not contain PE files inside archive files." EXECUTIONTIME="00h:00m:01s.16ms" OPTIONAL="TRUE">
+      <TEST INDEX="89" NAME="Archive files usage" DESCRIPTION="Packages should not contain PE files inside archive files." EXECUTIONTIME="00h:00m:01s.18ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="88" NAME="Blocked executables" DESCRIPTION="Detects if there are references to process launch APIs and blocked executables" EXECUTIONTIME="00h:00m:02s.10ms" OPTIONAL="TRUE">
+      <TEST INDEX="88" NAME="Blocked executables" DESCRIPTION="Detects if there are references to process launch APIs and blocked executables" EXECUTIONTIME="00h:00m:02s.04ms" OPTIONAL="TRUE">
         <MESSAGES>
           <MESSAGE TEXT="File OpenMPT.exe contains a reference to a &quot;Launch Process&quot; related API kernel32.dll!CreateProcessW" />
           <MESSAGE TEXT="File OpenMPT.exe contains a reference to a &quot;Launch Process&quot; related API shell32.dll!ShellExecuteW" />
@@ -121,7 +121,7 @@
         </MESSAGES>
         <RESULT><![CDATA[FAIL]]></RESULT>
       </TEST>
-      <TEST INDEX="63" NAME="Platform appropriate files" DESCRIPTION="App should not install files that do not match the target processor architecture." EXECUTIONTIME="00h:00m:01s.01ms" OPTIONAL="TRUE">
+      <TEST INDEX="63" NAME="Platform appropriate files" DESCRIPTION="App should not install files that do not match the target processor architecture." EXECUTIONTIME="00h:00m:00s.96ms" OPTIONAL="TRUE">
         <MESSAGES>
           <MESSAGE TEXT="File PluginBridge-arm.exe is designed only for arm processor type; App package manifest declares 'ProcessorArchitecture' as x64." />
           <MESSAGE TEXT="File PluginBridge-arm64.exe is designed only for arm processor type; App package manifest declares 'ProcessorArchitecture' as x64." />
@@ -132,7 +132,7 @@
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="26" TITLE="High-DPI support" RATIONALE="The application needs to set DPI-aware to make the UI look consistently good across a wide variety of high-DPI display settings.">
-      <TEST INDEX="92" NAME="DPIAwarenessValidation" DESCRIPTION="Applications should set DPI-aware to make its UI look consistently good across a wide variety of high-DPI display settings." EXECUTIONTIME="00h:00m:01s.43ms" OPTIONAL="FALSE">
+      <TEST INDEX="92" NAME="DPIAwarenessValidation" DESCRIPTION="Applications should set DPI-aware to make its UI look consistently good across a wide variety of high-DPI display settings." EXECUTIONTIME="00h:00m:01s.41ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
@@ -140,7 +140,7 @@
   </REQUIREMENTS>
   <APPLICATIONS>
     <Installed_Programs>
-      <Program Name="30492SamuelGomes.OpenMPT" Type="Application" Source="AppxPackage" Publisher="CN=81CFCF59-AA2B-4985-97BF-4E6A6C36B7D6" Version="1.30.3.0" Language="16393" InstallDate="" OSVersionAtInstallTime="10.0.0.22000" RootDirPath="C:\Windows\temp\appcert_2884\30492SamuelGomes.OpenMPT_1.30.3.0_x64__x6kje0v4c1m1y" Id="0000c854d0401cc2fa62509c52fa30dd7a0f00000940" HiddenArp="false">
+      <Program Name="30492SamuelGomes.OpenMPT" Type="Application" Source="AppxPackage" Publisher="CN=81CFCF59-AA2B-4985-97BF-4E6A6C36B7D6" Version="1.30.3.0" Language="16393" InstallDate="" OSVersionAtInstallTime="10.0.0.22000" RootDirPath="C:\Windows\temp\appcert_3EC0\30492SamuelGomes.OpenMPT_1.30.3.0_x64__x6kje0v4c1m1y" Id="0000c854d0401cc2fa62509c52fa30dd7a0f00000940" HiddenArp="false">
         <Indicators>
           <WindowsStoreAppManifestIndicators>
             <PackageManifest PackageFullName="30492SamuelGomes.OpenMPT_1.30.3.0_x64__x6kje0v4c1m1y">
@@ -308,27 +308,27 @@
         </Indicators>
         <StaticProperties>
           <Files Id="">
-            <File Id="00001224249d6d5ac590097e3b92fa812909e8ac2e98" Name="openmpt-lame.dll" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="700416" SizeOfImage="700416" PeHeaderHash="010170cda2ebde2e5894d224aa7c0012db133fca76ba" PeChecksum="533758" CrcChecksum="108058530" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="03/13/2022 11:06:34" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_2884\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\openmpt-lame.dll" />
-            <File Id="000059b1b21f7f8b7a60f973e8a4d1b0dccdf38051d9" Name="openmpt-mpg123.dll" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="454656" SizeOfImage="454656" PeHeaderHash="0101192549533ae055f41ec90a1b22a5020494349330" PeChecksum="478173" CrcChecksum="1179951916" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="03/13/2022 11:06:32" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_2884\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\openmpt-mpg123.dll" />
-            <File Id="00001a4be57eefc5119fafee3650422802568e99645b" Name="openmpt-soundtouch.dll" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="200704" SizeOfImage="200704" PeHeaderHash="010145ad0f336cedcded9ce9c9608f251b4936107246" PeChecksum="216842" CrcChecksum="2030611424" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="03/13/2022 11:06:30" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_2884\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\openmpt-soundtouch.dll" />
-            <File Id="0000173fe2047bc506bc4c497987e1b19b9325f82e6c" Name="OpenMPT.exe" ProductName="openmpt" CompanyName="openmpt (https://openmpt.org)" ProductVersion="1.30.03.00" VerLanguage="1033" SwitchBackContext="0" FileVersion="1.30.03.00" Size="9203712" SizeOfImage="9203712" PeHeaderHash="010114f1ef6af63dc58172e2cf1d1b17d674fc23e67b" PeChecksum="8581630" CrcChecksum="1633960247" BinProductVersion="1.30.03.00" BinFileVersion="1.30.3.0" FileDescription="openmpt (amd64)" LegalCopyright="copyright © 2004-2022 openmpt project developers and contributors, copyright © 1997-2003 olivier lapicque" LinkDate="03/13/2022 14:16:26" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_2884\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\openmpt.exe" />
-            <File Id="00003af944452f6d6ef5cd9d9726efa813e5505589bd" Name="PluginBridge-amd64.exe" ProductName="openmpt" CompanyName="openmpt" ProductVersion="1.30.03.00" VerLanguage="0" SwitchBackContext="0" FileVersion="1.30.03.00" Size="196608" SizeOfImage="196608" PeHeaderHash="01017b8445afd520f2f763cc43a7d3743d8d1c5e6fc4" PeChecksum="190512" CrcChecksum="-1372332831" BinProductVersion="1.30.03.00" BinFileVersion="1.30.3.0" FileDescription="openmpt plugin bridge" LegalCopyright="copyright © 2013-2022 openmpt project developers and contributors" LinkDate="03/13/2022 14:14:11" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_2884\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\pluginbridge-amd64.exe" />
-            <File Id="0000dd40628082948f78623bdabd10bf0c2074d0a6eb" Name="PluginBridge-arm64.exe" ProductName="openmpt" CompanyName="openmpt" ProductVersion="1.30.03.00" VerLanguage="0" SwitchBackContext="0" FileVersion="1.30.03.00" Size="172032" SizeOfImage="172032" PeHeaderHash="0101a7ce9dba9a03ecdd5c4f197a8c1ce0fbc12d929a" PeChecksum="194765" CrcChecksum="982609175" BinProductVersion="1.30.03.00" BinFileVersion="1.30.3.0" FileDescription="openmpt plugin bridge" LegalCopyright="copyright © 2013-2022 openmpt project developers and contributors" LinkDate="03/13/2022 14:17:29" BinaryType="pe64_arm64" LowerCaseLongPath="c:\windows\temp\appcert_2884\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\pluginbridge-arm64.exe" />
-            <File Id="00007ada4524bb5b8843b1e1fdbb747827fce230ec67" Name="PluginBridge-arm.exe" ProductName="openmpt" CompanyName="openmpt" ProductVersion="1.30.03.00" VerLanguage="0" SwitchBackContext="0" FileVersion="1.30.03.00" Size="135168" SizeOfImage="135168" PeHeaderHash="0101254584f4c0ae14b7e796b9a54779954c25dfd9d4" PeChecksum="176768" CrcChecksum="-547039612" BinProductVersion="1.30.03.00" BinFileVersion="1.30.3.0" FileDescription="openmpt plugin bridge" LegalCopyright="copyright © 2013-2022 openmpt project developers and contributors" LinkDate="03/13/2022 14:16:31" BinaryType="pe32_arm" LowerCaseLongPath="c:\windows\temp\appcert_2884\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\pluginbridge-arm.exe" />
-            <File Id="000014aa9f91bd759a84041d64835f43142206c14b76" Name="PluginBridge-x86.exe" ProductName="openmpt" CompanyName="openmpt" ProductVersion="1.30.03.00" VerLanguage="0" SwitchBackContext="0" FileVersion="1.30.03.00" Size="151552" SizeOfImage="151552" PeHeaderHash="01014052bce5212b9403e38869fe89995b9f0e71721c" PeChecksum="185160" CrcChecksum="1791539871" BinProductVersion="1.30.03.00" BinFileVersion="1.30.3.0" FileDescription="openmpt plugin bridge" LegalCopyright="copyright © 2013-2022 openmpt project developers and contributors" LinkDate="03/13/2022 14:13:44" BinaryType="pe32_i386" LowerCaseLongPath="c:\windows\temp\appcert_2884\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\pluginbridge-x86.exe" />
-            <File Id="00003ebd1082d7be8c40b25f4e3fa8f8932584a17f31" Name="PluginBridgeLegacy-x86.exe" ProductName="openmpt" CompanyName="openmpt" ProductVersion="1.30.03.00" VerLanguage="0" SwitchBackContext="0" FileVersion="1.30.03.00" Size="151552" SizeOfImage="151552" PeHeaderHash="01013402d143647e51e3ae83275d573c4507d4c67f90" PeChecksum="211502" CrcChecksum="1217394074" BinProductVersion="1.30.03.00" BinFileVersion="1.30.3.0" FileDescription="openmpt plugin bridge" LegalCopyright="copyright © 2013-2022 openmpt project developers and contributors" LinkDate="03/13/2022 14:13:45" BinaryType="pe32_i386" LowerCaseLongPath="c:\windows\temp\appcert_2884\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\pluginbridgelegacy-x86.exe" />
-            <File Id="00003e3d84f49eb4c483c290439ec3409d75f1b8a6be" Name="PluginBridgeLegacy-arm64.exe" ProductName="openmpt" CompanyName="openmpt" ProductVersion="1.30.03.00" VerLanguage="0" SwitchBackContext="0" FileVersion="1.30.03.00" Size="172032" SizeOfImage="172032" PeHeaderHash="01018a02776270052020541a5c26ffa715c4d9f364db" PeChecksum="211559" CrcChecksum="-1364266104" BinProductVersion="1.30.03.00" BinFileVersion="1.30.3.0" FileDescription="openmpt plugin bridge" LegalCopyright="copyright © 2013-2022 openmpt project developers and contributors" LinkDate="03/13/2022 14:17:30" BinaryType="pe64_arm64" LowerCaseLongPath="c:\windows\temp\appcert_2884\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\pluginbridgelegacy-arm64.exe" />
-            <File Id="000080cbbebe4fbe6f2a3e8dd037f465de7d816489d0" Name="PluginBridgeLegacy-arm.exe" ProductName="openmpt" CompanyName="openmpt" ProductVersion="1.30.03.00" VerLanguage="0" SwitchBackContext="0" FileVersion="1.30.03.00" Size="135168" SizeOfImage="135168" PeHeaderHash="0101afddef2ce28b22f3b2ac44c8276efb500d45b0e2" PeChecksum="156518" CrcChecksum="-1084951806" BinProductVersion="1.30.03.00" BinFileVersion="1.30.3.0" FileDescription="openmpt plugin bridge" LegalCopyright="copyright © 2013-2022 openmpt project developers and contributors" LinkDate="03/13/2022 14:16:31" BinaryType="pe32_arm" LowerCaseLongPath="c:\windows\temp\appcert_2884\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\pluginbridgelegacy-arm.exe" />
-            <File Id="000086e2a9235c32ff9f3c1f8e9f662a23bfa3446b90" Name="PluginBridgeLegacy-amd64.exe" ProductName="openmpt" CompanyName="openmpt" ProductVersion="1.30.03.00" VerLanguage="0" SwitchBackContext="0" FileVersion="1.30.03.00" Size="196608" SizeOfImage="196608" PeHeaderHash="0101e97e156f182019a9ec8eee7811d45cf340296ff7" PeChecksum="239861" CrcChecksum="2037899356" BinProductVersion="1.30.03.00" BinFileVersion="1.30.3.0" FileDescription="openmpt plugin bridge" LegalCopyright="copyright © 2013-2022 openmpt project developers and contributors" LinkDate="03/13/2022 14:14:11" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_2884\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\pluginbridgelegacy-amd64.exe" />
-            <File Id="00000961ee7980a359e99c3b648c36ea876bb1947326" Name="Release Notes.html" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="0" SizeOfImage="0" PeHeaderHash="" PeChecksum="0" CrcChecksum="645043777" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="" BinaryType="data_only" LowerCaseLongPath="c:\windows\temp\appcert_2884\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\release notes.html" />
-            <File Id="0000e0902fd2daf460e567401b3dfd142e14c22f2151" Name="resources.pri" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="0" SizeOfImage="0" PeHeaderHash="" PeChecksum="0" CrcChecksum="719183974" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="" BinaryType="data_only" LowerCaseLongPath="c:\windows\temp\appcert_2884\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\resources.pri" />
+            <File Id="00001224249d6d5ac590097e3b92fa812909e8ac2e98" Name="openmpt-lame.dll" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="700416" SizeOfImage="700416" PeHeaderHash="010170cda2ebde2e5894d224aa7c0012db133fca76ba" PeChecksum="533758" CrcChecksum="108058530" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="03/13/2022 11:06:34" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_3ec0\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\openmpt-lame.dll" />
+            <File Id="000059b1b21f7f8b7a60f973e8a4d1b0dccdf38051d9" Name="openmpt-mpg123.dll" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="454656" SizeOfImage="454656" PeHeaderHash="0101192549533ae055f41ec90a1b22a5020494349330" PeChecksum="478173" CrcChecksum="1179951916" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="03/13/2022 11:06:32" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_3ec0\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\openmpt-mpg123.dll" />
+            <File Id="00001a4be57eefc5119fafee3650422802568e99645b" Name="openmpt-soundtouch.dll" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="200704" SizeOfImage="200704" PeHeaderHash="010145ad0f336cedcded9ce9c9608f251b4936107246" PeChecksum="216842" CrcChecksum="2030611424" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="03/13/2022 11:06:30" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_3ec0\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\openmpt-soundtouch.dll" />
+            <File Id="0000173fe2047bc506bc4c497987e1b19b9325f82e6c" Name="OpenMPT.exe" ProductName="openmpt" CompanyName="openmpt (https://openmpt.org)" ProductVersion="1.30.03.00" VerLanguage="1033" SwitchBackContext="0" FileVersion="1.30.03.00" Size="9203712" SizeOfImage="9203712" PeHeaderHash="010114f1ef6af63dc58172e2cf1d1b17d674fc23e67b" PeChecksum="8581630" CrcChecksum="1633960247" BinProductVersion="1.30.03.00" BinFileVersion="1.30.3.0" FileDescription="openmpt (amd64)" LegalCopyright="copyright © 2004-2022 openmpt project developers and contributors, copyright © 1997-2003 olivier lapicque" LinkDate="03/13/2022 14:16:26" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_3ec0\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\openmpt.exe" />
+            <File Id="00003af944452f6d6ef5cd9d9726efa813e5505589bd" Name="PluginBridge-amd64.exe" ProductName="openmpt" CompanyName="openmpt" ProductVersion="1.30.03.00" VerLanguage="0" SwitchBackContext="0" FileVersion="1.30.03.00" Size="196608" SizeOfImage="196608" PeHeaderHash="01017b8445afd520f2f763cc43a7d3743d8d1c5e6fc4" PeChecksum="190512" CrcChecksum="-1372332831" BinProductVersion="1.30.03.00" BinFileVersion="1.30.3.0" FileDescription="openmpt plugin bridge" LegalCopyright="copyright © 2013-2022 openmpt project developers and contributors" LinkDate="03/13/2022 14:14:11" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_3ec0\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\pluginbridge-amd64.exe" />
+            <File Id="00007ada4524bb5b8843b1e1fdbb747827fce230ec67" Name="PluginBridge-arm.exe" ProductName="openmpt" CompanyName="openmpt" ProductVersion="1.30.03.00" VerLanguage="0" SwitchBackContext="0" FileVersion="1.30.03.00" Size="135168" SizeOfImage="135168" PeHeaderHash="0101254584f4c0ae14b7e796b9a54779954c25dfd9d4" PeChecksum="176768" CrcChecksum="-547039612" BinProductVersion="1.30.03.00" BinFileVersion="1.30.3.0" FileDescription="openmpt plugin bridge" LegalCopyright="copyright © 2013-2022 openmpt project developers and contributors" LinkDate="03/13/2022 14:16:31" BinaryType="pe32_arm" LowerCaseLongPath="c:\windows\temp\appcert_3ec0\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\pluginbridge-arm.exe" />
+            <File Id="0000dd40628082948f78623bdabd10bf0c2074d0a6eb" Name="PluginBridge-arm64.exe" ProductName="openmpt" CompanyName="openmpt" ProductVersion="1.30.03.00" VerLanguage="0" SwitchBackContext="0" FileVersion="1.30.03.00" Size="172032" SizeOfImage="172032" PeHeaderHash="0101a7ce9dba9a03ecdd5c4f197a8c1ce0fbc12d929a" PeChecksum="194765" CrcChecksum="982609175" BinProductVersion="1.30.03.00" BinFileVersion="1.30.3.0" FileDescription="openmpt plugin bridge" LegalCopyright="copyright © 2013-2022 openmpt project developers and contributors" LinkDate="03/13/2022 14:17:29" BinaryType="pe64_arm64" LowerCaseLongPath="c:\windows\temp\appcert_3ec0\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\pluginbridge-arm64.exe" />
+            <File Id="000014aa9f91bd759a84041d64835f43142206c14b76" Name="PluginBridge-x86.exe" ProductName="openmpt" CompanyName="openmpt" ProductVersion="1.30.03.00" VerLanguage="0" SwitchBackContext="0" FileVersion="1.30.03.00" Size="151552" SizeOfImage="151552" PeHeaderHash="01014052bce5212b9403e38869fe89995b9f0e71721c" PeChecksum="185160" CrcChecksum="1791539871" BinProductVersion="1.30.03.00" BinFileVersion="1.30.3.0" FileDescription="openmpt plugin bridge" LegalCopyright="copyright © 2013-2022 openmpt project developers and contributors" LinkDate="03/13/2022 14:13:44" BinaryType="pe32_i386" LowerCaseLongPath="c:\windows\temp\appcert_3ec0\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\pluginbridge-x86.exe" />
+            <File Id="000080cbbebe4fbe6f2a3e8dd037f465de7d816489d0" Name="PluginBridgeLegacy-arm.exe" ProductName="openmpt" CompanyName="openmpt" ProductVersion="1.30.03.00" VerLanguage="0" SwitchBackContext="0" FileVersion="1.30.03.00" Size="135168" SizeOfImage="135168" PeHeaderHash="0101afddef2ce28b22f3b2ac44c8276efb500d45b0e2" PeChecksum="156518" CrcChecksum="-1084951806" BinProductVersion="1.30.03.00" BinFileVersion="1.30.3.0" FileDescription="openmpt plugin bridge" LegalCopyright="copyright © 2013-2022 openmpt project developers and contributors" LinkDate="03/13/2022 14:16:31" BinaryType="pe32_arm" LowerCaseLongPath="c:\windows\temp\appcert_3ec0\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\pluginbridgelegacy-arm.exe" />
+            <File Id="00003ebd1082d7be8c40b25f4e3fa8f8932584a17f31" Name="PluginBridgeLegacy-x86.exe" ProductName="openmpt" CompanyName="openmpt" ProductVersion="1.30.03.00" VerLanguage="0" SwitchBackContext="0" FileVersion="1.30.03.00" Size="151552" SizeOfImage="151552" PeHeaderHash="01013402d143647e51e3ae83275d573c4507d4c67f90" PeChecksum="211502" CrcChecksum="1217394074" BinProductVersion="1.30.03.00" BinFileVersion="1.30.3.0" FileDescription="openmpt plugin bridge" LegalCopyright="copyright © 2013-2022 openmpt project developers and contributors" LinkDate="03/13/2022 14:13:45" BinaryType="pe32_i386" LowerCaseLongPath="c:\windows\temp\appcert_3ec0\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\pluginbridgelegacy-x86.exe" />
+            <File Id="00003e3d84f49eb4c483c290439ec3409d75f1b8a6be" Name="PluginBridgeLegacy-arm64.exe" ProductName="openmpt" CompanyName="openmpt" ProductVersion="1.30.03.00" VerLanguage="0" SwitchBackContext="0" FileVersion="1.30.03.00" Size="172032" SizeOfImage="172032" PeHeaderHash="01018a02776270052020541a5c26ffa715c4d9f364db" PeChecksum="211559" CrcChecksum="-1364266104" BinProductVersion="1.30.03.00" BinFileVersion="1.30.3.0" FileDescription="openmpt plugin bridge" LegalCopyright="copyright © 2013-2022 openmpt project developers and contributors" LinkDate="03/13/2022 14:17:30" BinaryType="pe64_arm64" LowerCaseLongPath="c:\windows\temp\appcert_3ec0\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\pluginbridgelegacy-arm64.exe" />
+            <File Id="000086e2a9235c32ff9f3c1f8e9f662a23bfa3446b90" Name="PluginBridgeLegacy-amd64.exe" ProductName="openmpt" CompanyName="openmpt" ProductVersion="1.30.03.00" VerLanguage="0" SwitchBackContext="0" FileVersion="1.30.03.00" Size="196608" SizeOfImage="196608" PeHeaderHash="0101e97e156f182019a9ec8eee7811d45cf340296ff7" PeChecksum="239861" CrcChecksum="2037899356" BinProductVersion="1.30.03.00" BinFileVersion="1.30.3.0" FileDescription="openmpt plugin bridge" LegalCopyright="copyright © 2013-2022 openmpt project developers and contributors" LinkDate="03/13/2022 14:14:11" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_3ec0\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\pluginbridgelegacy-amd64.exe" />
+            <File Id="00000961ee7980a359e99c3b648c36ea876bb1947326" Name="Release Notes.html" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="0" SizeOfImage="0" PeHeaderHash="" PeChecksum="0" CrcChecksum="645043777" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="" BinaryType="data_only" LowerCaseLongPath="c:\windows\temp\appcert_3ec0\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\release notes.html" />
+            <File Id="0000e0902fd2daf460e567401b3dfd142e14c22f2151" Name="resources.pri" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="0" SizeOfImage="0" PeHeaderHash="" PeChecksum="0" CrcChecksum="719183974" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="" BinaryType="data_only" LowerCaseLongPath="c:\windows\temp\appcert_3ec0\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\resources.pri" />
           </Files>
         </StaticProperties>
       </Program>
     </Installed_Programs>
   </APPLICATIONS>
   <DEPENDENCY_INFORMATION>
-    <AitStaticAnalysis ProgramId="0000da39a3ee5e6b4b0d3255bfef95601890afd80709" AnalysisVersion="1.70" DictionaryVersion="3.6" Type="Max" Id="C:\Windows\temp\appcert_2884\30492SamuelGomes.OpenMPT_1.30.3.0_x64__x6kje0v4c1m1y">
+    <AitStaticAnalysis ProgramId="0000da39a3ee5e6b4b0d3255bfef95601890afd80709" AnalysisVersion="1.70" DictionaryVersion="3.6" Type="Max" Id="C:\Windows\temp\appcert_3EC0\30492SamuelGomes.OpenMPT_1.30.3.0_x64__x6kje0v4c1m1y">
       <AitFile ErrorCode="0" Name="Release Notes.html" Id="00000961ee7980a359e99c3b648c36ea876bb1947326" />
       <AitFile ErrorCode="0" Name="openmpt-lame.dll" Id="00001224249d6d5ac590097e3b92fa812909e8ac2e98">
         <AitCategory Id="Com">
