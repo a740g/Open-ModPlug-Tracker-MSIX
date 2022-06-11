@@ -1,29 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type='text/xsl' href='C:\ProgramData\Windows App Certification Kit\results.xsl'?>
-<REPORT xml:lang="en-IN" OVERALL_RESULT="PASS" VERSION="10.0.19041.685" LATEST_VERSION="" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="x64" SecureBoot="FALSE" APP_TYPE="Centennial" PUBLISHER_DISPLAY_NAME="CN=81CFCF59-AA2B-4985-97BF-4E6A6C36B7D6" APP_NAME="30492SamuelGomes.OpenMPT" APP_VERSION="1.30.3.0" OSVERSION="10.0.22000.0" OS="Microsoft Windows 11 Home Single Language" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="16393" X64_ONLY="TRUE" VALIDATION_TYPE="CommandLine" ReportGenerationTime="27-03-2022 05:39:40 AM" ID="522f2b5da82b3ca6df1b832c4f22df53">
+<REPORT xml:lang="en-IN" OVERALL_RESULT="PASS" VERSION="10.0.19041.685" LATEST_VERSION="" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="x64" SecureBoot="FALSE" APP_TYPE="Centennial" PUBLISHER_DISPLAY_NAME="CN=81CFCF59-AA2B-4985-97BF-4E6A6C36B7D6" APP_NAME="30492SamuelGomes.OpenMPT" APP_VERSION="1.30.4.0" OSVERSION="10.0.22000.0" OS="Microsoft Windows 11 Pro" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="16393" X64_ONLY="TRUE" VALIDATION_TYPE="CommandLine" ReportGenerationTime="11-06-2022 06:36:54 AM" ID="d6230fca8de987bf52a6e8137ab77ebb">
   <REQUIREMENTS>
     <REQUIREMENT NUMBER="3" TITLE="Digitally signed file test" RATIONALE="An Authenticode digital signature allows users to be sure that the software is genuine. It also allows detection if a file has been tampered with e.g. infected by a virus.">
-      <TEST INDEX="2" NAME="Install signed driver and executable files" DESCRIPTION="Install signed driver and executable files." EXECUTIONTIME="00h:00m:01s.93ms" OPTIONAL="TRUE">
+      <TEST INDEX="2" NAME="Install signed driver and executable files" DESCRIPTION="Install signed driver and executable files." EXECUTIONTIME="00h:00m:02s.37ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="6" TITLE="User account control (UAC) test" RATIONALE="Most applications do not require administrator privileges at run time, and should be just fine running as a standard-user. Windows applications must have a manifest (embedded or external) to define its execution level that tells OS the privileges needed to run the application.">
-      <TEST INDEX="11" NAME="User account control run level" DESCRIPTION="Windows® applications must have a manifest (embedded or external) to define its execution level that tells OS the privileges needed to run the application." EXECUTIONTIME="00h:00m:00s.88ms" OPTIONAL="TRUE">
+      <TEST INDEX="11" NAME="User account control run level" DESCRIPTION="Windows® applications must have a manifest (embedded or external) to define its execution level that tells OS the privileges needed to run the application." EXECUTIONTIME="00h:00m:00s.89ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="12" TITLE="Package compliance test" RATIONALE="The package does not satisfy Store compliance rules.">
-      <TEST INDEX="77" NAME="Application count" DESCRIPTION="One package should not define more than one app in the manifest." EXECUTIONTIME="00h:00m:00s.96ms" OPTIONAL="TRUE">
+      <TEST INDEX="77" NAME="Application count" DESCRIPTION="One package should not define more than one app in the manifest." EXECUTIONTIME="00h:00m:00s.98ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="31" NAME="App manifest" DESCRIPTION="App manifest must include valid entries for all required fields." EXECUTIONTIME="00h:00m:01s.44ms" OPTIONAL="FALSE">
+      <TEST INDEX="31" NAME="App manifest" DESCRIPTION="App manifest must include valid entries for all required fields." EXECUTIONTIME="00h:00m:01s.46ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="87" NAME="File association verbs" DESCRIPTION="Registry validation that no registered file association verbs are installed." EXECUTIONTIME="00h:00m:00s.89ms" OPTIONAL="TRUE">
+      <TEST INDEX="87" NAME="File association verbs" DESCRIPTION="Registry validation that no registered file association verbs are installed." EXECUTIONTIME="00h:00m:00s.88ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
@@ -31,75 +31,75 @@
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="91" NAME="Enterprise Features" DESCRIPTION="Check if any enterprise-only features are in the package." EXECUTIONTIME="00h:00m:00s.96ms" OPTIONAL="FALSE">
+      <TEST INDEX="91" NAME="Enterprise Features" DESCRIPTION="Check if any enterprise-only features are in the package." EXECUTIONTIME="00h:00m:00s.95ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="90" NAME="Resource Packages" DESCRIPTION="Check if any resource packages contain PE files." EXECUTIONTIME="00h:00m:00s.94ms" OPTIONAL="FALSE">
+      <TEST INDEX="90" NAME="Resource Packages" DESCRIPTION="Check if any resource packages contain PE files." EXECUTIONTIME="00h:00m:00s.91ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="14" TITLE="Windows security features test" RATIONALE="Applications must opt-into Windows security features.">
-      <TEST INDEX="70" NAME="Banned file analyzer" DESCRIPTION="Analysis of application to detect known insecure files" EXECUTIONTIME="00h:00m:01s.13ms" OPTIONAL="FALSE">
+      <TEST INDEX="70" NAME="Banned file analyzer" DESCRIPTION="Analysis of application to detect known insecure files" EXECUTIONTIME="00h:00m:01s.11ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="62" NAME="Private code signing" DESCRIPTION="App should not package private code signing key files." EXECUTIONTIME="00h:00m:01s.17ms" OPTIONAL="FALSE">
+      <TEST INDEX="62" NAME="Private code signing" DESCRIPTION="App should not package private code signing key files." EXECUTIONTIME="00h:00m:01s.21ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="19" TITLE="App manifest resources tests" RATIONALE="The App Package Manifest should have valid resources defined in the resources.pri file, as per the App Packaging Specification and App Manifest Schema.">
-      <TEST INDEX="45" NAME="App resources" DESCRIPTION="The package should have valid resources defined in the resources.pri file." EXECUTIONTIME="00h:00m:00s.68ms" OPTIONAL="TRUE">
+      <TEST INDEX="45" NAME="App resources" DESCRIPTION="The package should have valid resources defined in the resources.pri file." EXECUTIONTIME="00h:00m:00s.66ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="61" NAME="Branding" DESCRIPTION="App should not use the default images packed by windows SDK samples or Visual Studio." EXECUTIONTIME="00h:00m:01s.62ms" OPTIONAL="FALSE">
+      <TEST INDEX="61" NAME="Branding" DESCRIPTION="App should not use the default images packed by windows SDK samples or Visual Studio." EXECUTIONTIME="00h:00m:01s.61ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="20" TITLE="Debug configuration test" RATIONALE="The App should not install any debug binaries.">
-      <TEST INDEX="46" NAME="Debug configuration" DESCRIPTION="The App should not install any debug binaries." EXECUTIONTIME="00h:00m:01s.52ms" OPTIONAL="TRUE">
+      <TEST INDEX="46" NAME="Debug configuration" DESCRIPTION="The App should not install any debug binaries." EXECUTIONTIME="00h:00m:01s.49ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="23" TITLE="App Capabilities test" RATIONALE="Packages declaring special-use capabilities will have to provide justifications during the onboarding process.">
-      <TEST INDEX="52" NAME="Special use capabilities" DESCRIPTION="Packages declaring special-use capabilities will have to provide justifications during the onboarding process." EXECUTIONTIME="00h:00m:00s.96ms" OPTIONAL="FALSE">
+      <TEST INDEX="52" NAME="Special use capabilities" DESCRIPTION="Packages declaring special-use capabilities will have to provide justifications during the onboarding process." EXECUTIONTIME="00h:00m:00s.98ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="24" TITLE="Windows Runtime metadata validation" RATIONALE="Metadata needs to be conformant and consistent across all generation sources.">
-      <TEST INDEX="56" NAME="ExclusiveTo attribute" DESCRIPTION="A class must not implement an interface that is marked ExclusiveTo another class." EXECUTIONTIME="00h:00m:08s.32ms" OPTIONAL="FALSE">
+      <TEST INDEX="56" NAME="ExclusiveTo attribute" DESCRIPTION="A class must not implement an interface that is marked ExclusiveTo another class." EXECUTIONTIME="00h:00m:08s.00ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="57" NAME="Type location" DESCRIPTION="Types must be defined in the metadata file with the longest matching namespace." EXECUTIONTIME="00h:00m:00s.74ms" OPTIONAL="FALSE">
+      <TEST INDEX="57" NAME="Type location" DESCRIPTION="Types must be defined in the metadata file with the longest matching namespace." EXECUTIONTIME="00h:00m:00s.72ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="55" NAME="Type name case-sensitivity" DESCRIPTION="Namespace and type names must not vary only by casing." EXECUTIONTIME="00h:00m:00s.74ms" OPTIONAL="FALSE">
+      <TEST INDEX="55" NAME="Type name case-sensitivity" DESCRIPTION="Namespace and type names must not vary only by casing." EXECUTIONTIME="00h:00m:00s.72ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="54" NAME="Type name correctness" DESCRIPTION="Only system types can be in the Windows namespace and no types can be in the global namespace." EXECUTIONTIME="00h:00m:00s.74ms" OPTIONAL="FALSE">
+      <TEST INDEX="54" NAME="Type name correctness" DESCRIPTION="Only system types can be in the Windows namespace and no types can be in the global namespace." EXECUTIONTIME="00h:00m:00s.70ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="58" NAME="General metadata correctness" DESCRIPTION="Metadata files must meet various requirements in order to be valid and correct." EXECUTIONTIME="00h:00m:08s.16ms" OPTIONAL="TRUE">
+      <TEST INDEX="58" NAME="General metadata correctness" DESCRIPTION="Metadata files must meet various requirements in order to be valid and correct." EXECUTIONTIME="00h:00m:07s.95ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="53" NAME="Properties" DESCRIPTION="Write-only and indexer properties may not be used. Corresponding getter and setter methods must match in type." EXECUTIONTIME="00h:00m:00s.72ms" OPTIONAL="FALSE">
+      <TEST INDEX="53" NAME="Properties" DESCRIPTION="Write-only and indexer properties may not be used. Corresponding getter and setter methods must match in type." EXECUTIONTIME="00h:00m:00s.71ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="25" TITLE="Package sanity test" RATIONALE="Validation of the app package contents to ensure correctness.">
-      <TEST INDEX="89" NAME="Archive files usage" DESCRIPTION="Packages should not contain PE files inside archive files." EXECUTIONTIME="00h:00m:01s.18ms" OPTIONAL="TRUE">
+      <TEST INDEX="89" NAME="Archive files usage" DESCRIPTION="Packages should not contain PE files inside archive files." EXECUTIONTIME="00h:00m:01s.14ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
@@ -109,9 +109,9 @@
           <MESSAGE TEXT="File OpenMPT.exe contains a reference to a &quot;Launch Process&quot; related API shell32.dll!ShellExecuteW" />
           <MESSAGE TEXT="File openmpt-soundtouch.dll contains a blocked executable reference to &quot;cDb&quot;." />
           <MESSAGE TEXT="File OpenMPT.exe contains a blocked executable reference to &quot;CSI&quot;." />
+          <MESSAGE TEXT="File OpenMPT.exe contains a blocked executable reference to &quot;Dnx&quot;." />
           <MESSAGE TEXT="File OpenMPT.exe contains a blocked executable reference to &quot;bash&quot;." />
           <MESSAGE TEXT="File OpenMPT.exe contains a blocked executable reference to &quot;cscript.exe&quot;." />
-          <MESSAGE TEXT="File OpenMPT.exe contains a blocked executable reference to &quot;dnX&quot;." />
           <MESSAGE TEXT="File Beautiful Fifths.flac contains a blocked executable reference to &quot;Cmd&quot;." />
           <MESSAGE TEXT="File Horny Brass.flac contains a blocked executable reference to &quot;csi&quot;." />
           <MESSAGE TEXT="File JBClaps8.flac contains a blocked executable reference to &quot;REg&quot;." />
@@ -121,7 +121,7 @@
         </MESSAGES>
         <RESULT><![CDATA[FAIL]]></RESULT>
       </TEST>
-      <TEST INDEX="63" NAME="Platform appropriate files" DESCRIPTION="App should not install files that do not match the target processor architecture." EXECUTIONTIME="00h:00m:00s.96ms" OPTIONAL="TRUE">
+      <TEST INDEX="63" NAME="Platform appropriate files" DESCRIPTION="App should not install files that do not match the target processor architecture." EXECUTIONTIME="00h:00m:00s.97ms" OPTIONAL="TRUE">
         <MESSAGES>
           <MESSAGE TEXT="File PluginBridge-arm.exe is designed only for arm processor type; App package manifest declares 'ProcessorArchitecture' as x64." />
           <MESSAGE TEXT="File PluginBridge-arm64.exe is designed only for arm processor type; App package manifest declares 'ProcessorArchitecture' as x64." />
@@ -132,7 +132,7 @@
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="26" TITLE="High-DPI support" RATIONALE="The application needs to set DPI-aware to make the UI look consistently good across a wide variety of high-DPI display settings.">
-      <TEST INDEX="92" NAME="DPIAwarenessValidation" DESCRIPTION="Applications should set DPI-aware to make its UI look consistently good across a wide variety of high-DPI display settings." EXECUTIONTIME="00h:00m:01s.41ms" OPTIONAL="FALSE">
+      <TEST INDEX="92" NAME="DPIAwarenessValidation" DESCRIPTION="Applications should set DPI-aware to make its UI look consistently good across a wide variety of high-DPI display settings." EXECUTIONTIME="00h:00m:01s.40ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
@@ -140,12 +140,12 @@
   </REQUIREMENTS>
   <APPLICATIONS>
     <Installed_Programs>
-      <Program Name="30492SamuelGomes.OpenMPT" Type="Application" Source="AppxPackage" Publisher="CN=81CFCF59-AA2B-4985-97BF-4E6A6C36B7D6" Version="1.30.3.0" Language="16393" InstallDate="" OSVersionAtInstallTime="10.0.0.22000" RootDirPath="C:\Windows\temp\appcert_3EC0\30492SamuelGomes.OpenMPT_1.30.3.0_x64__x6kje0v4c1m1y" Id="0000c854d0401cc2fa62509c52fa30dd7a0f00000940" HiddenArp="false">
+      <Program Name="30492SamuelGomes.OpenMPT" Type="Application" Source="AppxPackage" Publisher="CN=81CFCF59-AA2B-4985-97BF-4E6A6C36B7D6" Version="1.30.4.0" Language="16393" InstallDate="" OSVersionAtInstallTime="10.0.0.22000" RootDirPath="C:\Windows\temp\appcert_2060\30492SamuelGomes.OpenMPT_1.30.4.0_x64__x6kje0v4c1m1y" Id="00006294ab8558130e12fd30c1e6767c3a9b00000940" HiddenArp="false">
         <Indicators>
           <WindowsStoreAppManifestIndicators>
-            <PackageManifest PackageFullName="30492SamuelGomes.OpenMPT_1.30.3.0_x64__x6kje0v4c1m1y">
+            <PackageManifest PackageFullName="30492SamuelGomes.OpenMPT_1.30.4.0_x64__x6kje0v4c1m1y">
               <Package>
-                <Identity Name="30492SamuelGomes.OpenMPT" Version="1.30.3.0" Publisher="CN=81CFCF59-AA2B-4985-97BF-4E6A6C36B7D6" ProcessorArchitecture="x64"></Identity>
+                <Identity Name="30492SamuelGomes.OpenMPT" Version="1.30.4.0" Publisher="CN=81CFCF59-AA2B-4985-97BF-4E6A6C36B7D6" ProcessorArchitecture="x64"></Identity>
                 <Properties>
                   <DisplayName>Open ModPlug Tracker</DisplayName>
                   <PublisherDisplayName>Samuel Gomes</PublisherDisplayName>
@@ -308,125 +308,29 @@
         </Indicators>
         <StaticProperties>
           <Files Id="">
-            <File Id="00001224249d6d5ac590097e3b92fa812909e8ac2e98" Name="openmpt-lame.dll" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="700416" SizeOfImage="700416" PeHeaderHash="010170cda2ebde2e5894d224aa7c0012db133fca76ba" PeChecksum="533758" CrcChecksum="108058530" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="03/13/2022 11:06:34" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_3ec0\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\openmpt-lame.dll" />
-            <File Id="000059b1b21f7f8b7a60f973e8a4d1b0dccdf38051d9" Name="openmpt-mpg123.dll" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="454656" SizeOfImage="454656" PeHeaderHash="0101192549533ae055f41ec90a1b22a5020494349330" PeChecksum="478173" CrcChecksum="1179951916" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="03/13/2022 11:06:32" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_3ec0\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\openmpt-mpg123.dll" />
-            <File Id="00001a4be57eefc5119fafee3650422802568e99645b" Name="openmpt-soundtouch.dll" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="200704" SizeOfImage="200704" PeHeaderHash="010145ad0f336cedcded9ce9c9608f251b4936107246" PeChecksum="216842" CrcChecksum="2030611424" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="03/13/2022 11:06:30" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_3ec0\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\openmpt-soundtouch.dll" />
-            <File Id="0000173fe2047bc506bc4c497987e1b19b9325f82e6c" Name="OpenMPT.exe" ProductName="openmpt" CompanyName="openmpt (https://openmpt.org)" ProductVersion="1.30.03.00" VerLanguage="1033" SwitchBackContext="0" FileVersion="1.30.03.00" Size="9203712" SizeOfImage="9203712" PeHeaderHash="010114f1ef6af63dc58172e2cf1d1b17d674fc23e67b" PeChecksum="8581630" CrcChecksum="1633960247" BinProductVersion="1.30.03.00" BinFileVersion="1.30.3.0" FileDescription="openmpt (amd64)" LegalCopyright="copyright © 2004-2022 openmpt project developers and contributors, copyright © 1997-2003 olivier lapicque" LinkDate="03/13/2022 14:16:26" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_3ec0\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\openmpt.exe" />
-            <File Id="00003af944452f6d6ef5cd9d9726efa813e5505589bd" Name="PluginBridge-amd64.exe" ProductName="openmpt" CompanyName="openmpt" ProductVersion="1.30.03.00" VerLanguage="0" SwitchBackContext="0" FileVersion="1.30.03.00" Size="196608" SizeOfImage="196608" PeHeaderHash="01017b8445afd520f2f763cc43a7d3743d8d1c5e6fc4" PeChecksum="190512" CrcChecksum="-1372332831" BinProductVersion="1.30.03.00" BinFileVersion="1.30.3.0" FileDescription="openmpt plugin bridge" LegalCopyright="copyright © 2013-2022 openmpt project developers and contributors" LinkDate="03/13/2022 14:14:11" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_3ec0\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\pluginbridge-amd64.exe" />
-            <File Id="00007ada4524bb5b8843b1e1fdbb747827fce230ec67" Name="PluginBridge-arm.exe" ProductName="openmpt" CompanyName="openmpt" ProductVersion="1.30.03.00" VerLanguage="0" SwitchBackContext="0" FileVersion="1.30.03.00" Size="135168" SizeOfImage="135168" PeHeaderHash="0101254584f4c0ae14b7e796b9a54779954c25dfd9d4" PeChecksum="176768" CrcChecksum="-547039612" BinProductVersion="1.30.03.00" BinFileVersion="1.30.3.0" FileDescription="openmpt plugin bridge" LegalCopyright="copyright © 2013-2022 openmpt project developers and contributors" LinkDate="03/13/2022 14:16:31" BinaryType="pe32_arm" LowerCaseLongPath="c:\windows\temp\appcert_3ec0\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\pluginbridge-arm.exe" />
-            <File Id="0000dd40628082948f78623bdabd10bf0c2074d0a6eb" Name="PluginBridge-arm64.exe" ProductName="openmpt" CompanyName="openmpt" ProductVersion="1.30.03.00" VerLanguage="0" SwitchBackContext="0" FileVersion="1.30.03.00" Size="172032" SizeOfImage="172032" PeHeaderHash="0101a7ce9dba9a03ecdd5c4f197a8c1ce0fbc12d929a" PeChecksum="194765" CrcChecksum="982609175" BinProductVersion="1.30.03.00" BinFileVersion="1.30.3.0" FileDescription="openmpt plugin bridge" LegalCopyright="copyright © 2013-2022 openmpt project developers and contributors" LinkDate="03/13/2022 14:17:29" BinaryType="pe64_arm64" LowerCaseLongPath="c:\windows\temp\appcert_3ec0\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\pluginbridge-arm64.exe" />
-            <File Id="000014aa9f91bd759a84041d64835f43142206c14b76" Name="PluginBridge-x86.exe" ProductName="openmpt" CompanyName="openmpt" ProductVersion="1.30.03.00" VerLanguage="0" SwitchBackContext="0" FileVersion="1.30.03.00" Size="151552" SizeOfImage="151552" PeHeaderHash="01014052bce5212b9403e38869fe89995b9f0e71721c" PeChecksum="185160" CrcChecksum="1791539871" BinProductVersion="1.30.03.00" BinFileVersion="1.30.3.0" FileDescription="openmpt plugin bridge" LegalCopyright="copyright © 2013-2022 openmpt project developers and contributors" LinkDate="03/13/2022 14:13:44" BinaryType="pe32_i386" LowerCaseLongPath="c:\windows\temp\appcert_3ec0\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\pluginbridge-x86.exe" />
-            <File Id="000080cbbebe4fbe6f2a3e8dd037f465de7d816489d0" Name="PluginBridgeLegacy-arm.exe" ProductName="openmpt" CompanyName="openmpt" ProductVersion="1.30.03.00" VerLanguage="0" SwitchBackContext="0" FileVersion="1.30.03.00" Size="135168" SizeOfImage="135168" PeHeaderHash="0101afddef2ce28b22f3b2ac44c8276efb500d45b0e2" PeChecksum="156518" CrcChecksum="-1084951806" BinProductVersion="1.30.03.00" BinFileVersion="1.30.3.0" FileDescription="openmpt plugin bridge" LegalCopyright="copyright © 2013-2022 openmpt project developers and contributors" LinkDate="03/13/2022 14:16:31" BinaryType="pe32_arm" LowerCaseLongPath="c:\windows\temp\appcert_3ec0\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\pluginbridgelegacy-arm.exe" />
-            <File Id="00003ebd1082d7be8c40b25f4e3fa8f8932584a17f31" Name="PluginBridgeLegacy-x86.exe" ProductName="openmpt" CompanyName="openmpt" ProductVersion="1.30.03.00" VerLanguage="0" SwitchBackContext="0" FileVersion="1.30.03.00" Size="151552" SizeOfImage="151552" PeHeaderHash="01013402d143647e51e3ae83275d573c4507d4c67f90" PeChecksum="211502" CrcChecksum="1217394074" BinProductVersion="1.30.03.00" BinFileVersion="1.30.3.0" FileDescription="openmpt plugin bridge" LegalCopyright="copyright © 2013-2022 openmpt project developers and contributors" LinkDate="03/13/2022 14:13:45" BinaryType="pe32_i386" LowerCaseLongPath="c:\windows\temp\appcert_3ec0\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\pluginbridgelegacy-x86.exe" />
-            <File Id="00003e3d84f49eb4c483c290439ec3409d75f1b8a6be" Name="PluginBridgeLegacy-arm64.exe" ProductName="openmpt" CompanyName="openmpt" ProductVersion="1.30.03.00" VerLanguage="0" SwitchBackContext="0" FileVersion="1.30.03.00" Size="172032" SizeOfImage="172032" PeHeaderHash="01018a02776270052020541a5c26ffa715c4d9f364db" PeChecksum="211559" CrcChecksum="-1364266104" BinProductVersion="1.30.03.00" BinFileVersion="1.30.3.0" FileDescription="openmpt plugin bridge" LegalCopyright="copyright © 2013-2022 openmpt project developers and contributors" LinkDate="03/13/2022 14:17:30" BinaryType="pe64_arm64" LowerCaseLongPath="c:\windows\temp\appcert_3ec0\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\pluginbridgelegacy-arm64.exe" />
-            <File Id="000086e2a9235c32ff9f3c1f8e9f662a23bfa3446b90" Name="PluginBridgeLegacy-amd64.exe" ProductName="openmpt" CompanyName="openmpt" ProductVersion="1.30.03.00" VerLanguage="0" SwitchBackContext="0" FileVersion="1.30.03.00" Size="196608" SizeOfImage="196608" PeHeaderHash="0101e97e156f182019a9ec8eee7811d45cf340296ff7" PeChecksum="239861" CrcChecksum="2037899356" BinProductVersion="1.30.03.00" BinFileVersion="1.30.3.0" FileDescription="openmpt plugin bridge" LegalCopyright="copyright © 2013-2022 openmpt project developers and contributors" LinkDate="03/13/2022 14:14:11" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_3ec0\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\pluginbridgelegacy-amd64.exe" />
-            <File Id="00000961ee7980a359e99c3b648c36ea876bb1947326" Name="Release Notes.html" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="0" SizeOfImage="0" PeHeaderHash="" PeChecksum="0" CrcChecksum="645043777" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="" BinaryType="data_only" LowerCaseLongPath="c:\windows\temp\appcert_3ec0\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\release notes.html" />
-            <File Id="0000e0902fd2daf460e567401b3dfd142e14c22f2151" Name="resources.pri" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="0" SizeOfImage="0" PeHeaderHash="" PeChecksum="0" CrcChecksum="719183974" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="" BinaryType="data_only" LowerCaseLongPath="c:\windows\temp\appcert_3ec0\30492samuelgomes.openmpt_1.30.3.0_x64__x6kje0v4c1m1y\resources.pri" />
+            <File Id="0000baff99fbbba615fad092afd1e2722f689f505094" Name="openmpt-lame.dll" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="700416" SizeOfImage="700416" PeHeaderHash="010153a0a12ccc1af06a201287fc7120ba5c538ca7a5" PeChecksum="510033" CrcChecksum="-1425241328" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="03/13/2022 11:06:34" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_2060\30492samuelgomes.openmpt_1.30.4.0_x64__x6kje0v4c1m1y\openmpt-lame.dll" />
+            <File Id="0000f51dbf572789d79b37287d1ab0ab4e8e34b9558e" Name="openmpt-mpg123.dll" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="454656" SizeOfImage="454656" PeHeaderHash="0101f17f209d0e04d238d7b95c1205989036735469cc" PeChecksum="451004" CrcChecksum="1225514700" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="03/13/2022 11:06:32" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_2060\30492samuelgomes.openmpt_1.30.4.0_x64__x6kje0v4c1m1y\openmpt-mpg123.dll" />
+            <File Id="0000637982c771728064f21312eebe94e96a8d79d8b0" Name="openmpt-soundtouch.dll" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="200704" SizeOfImage="200704" PeHeaderHash="0101633a49969b5402878d73a829eb607277e7ed7531" PeChecksum="247503" CrcChecksum="1334385590" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="03/13/2022 11:06:30" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_2060\30492samuelgomes.openmpt_1.30.4.0_x64__x6kje0v4c1m1y\openmpt-soundtouch.dll" />
+            <File Id="000069210d379ed7be60e5a55866226396c5fbfafe97" Name="OpenMPT.exe" ProductName="openmpt" CompanyName="openmpt (https://openmpt.org)" ProductVersion="1.30.04.00" VerLanguage="1033" SwitchBackContext="0" FileVersion="1.30.04.00" Size="9211904" SizeOfImage="9211904" PeHeaderHash="0101505061778b2930c59487d695429416eb27706b94" PeChecksum="8579973" CrcChecksum="1130366958" BinProductVersion="1.30.04.00" BinFileVersion="1.30.4.0" FileDescription="openmpt (amd64)" LegalCopyright="copyright © 2004-2022 openmpt project developers and contributors, copyright © 1997-2003 olivier lapicque" LinkDate="04/24/2022 13:17:40" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_2060\30492samuelgomes.openmpt_1.30.4.0_x64__x6kje0v4c1m1y\openmpt.exe" />
+            <File Id="0000adc3d79666017bbceae6b3652dd83442beca8681" Name="PluginBridge-amd64.exe" ProductName="openmpt" CompanyName="openmpt" ProductVersion="1.30.04.00" VerLanguage="0" SwitchBackContext="0" FileVersion="1.30.04.00" Size="196608" SizeOfImage="196608" PeHeaderHash="010161e7e06d94e2a01a9e59e3b52254e64ad9133ecf" PeChecksum="233794" CrcChecksum="1137454535" BinProductVersion="1.30.04.00" BinFileVersion="1.30.4.0" FileDescription="openmpt plugin bridge" LegalCopyright="copyright © 2013-2022 openmpt project developers and contributors" LinkDate="04/24/2022 13:17:17" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_2060\30492samuelgomes.openmpt_1.30.4.0_x64__x6kje0v4c1m1y\pluginbridge-amd64.exe" />
+            <File Id="0000694eab8f9026a200806755b8cf25cf482369351b" Name="PluginBridge-arm64.exe" ProductName="openmpt" CompanyName="openmpt" ProductVersion="1.30.04.00" VerLanguage="0" SwitchBackContext="0" FileVersion="1.30.04.00" Size="172032" SizeOfImage="172032" PeHeaderHash="0101c3e93dd6f777ae5e48c9c78df38b3e7cdff875cc" PeChecksum="197224" CrcChecksum="418600592" BinProductVersion="1.30.04.00" BinFileVersion="1.30.4.0" FileDescription="openmpt plugin bridge" LegalCopyright="copyright © 2013-2022 openmpt project developers and contributors" LinkDate="04/24/2022 13:18:40" BinaryType="pe64_arm64" LowerCaseLongPath="c:\windows\temp\appcert_2060\30492samuelgomes.openmpt_1.30.4.0_x64__x6kje0v4c1m1y\pluginbridge-arm64.exe" />
+            <File Id="0000bdd9243d352a72f81d54ee7c4582e3b6c7fe26ea" Name="PluginBridge-arm.exe" ProductName="openmpt" CompanyName="openmpt" ProductVersion="1.30.04.00" VerLanguage="0" SwitchBackContext="0" FileVersion="1.30.04.00" Size="135168" SizeOfImage="135168" PeHeaderHash="0101b24f7b070e722fc530680d9a9be31465c7999d62" PeChecksum="163027" CrcChecksum="1214769559" BinProductVersion="1.30.04.00" BinFileVersion="1.30.4.0" FileDescription="openmpt plugin bridge" LegalCopyright="copyright © 2013-2022 openmpt project developers and contributors" LinkDate="04/24/2022 13:17:44" BinaryType="pe32_arm" LowerCaseLongPath="c:\windows\temp\appcert_2060\30492samuelgomes.openmpt_1.30.4.0_x64__x6kje0v4c1m1y\pluginbridge-arm.exe" />
+            <File Id="0000fea0dfe5d5b122fcca3474d2a67ee79260595e1a" Name="PluginBridge-x86.exe" ProductName="openmpt" CompanyName="openmpt" ProductVersion="1.30.04.00" VerLanguage="0" SwitchBackContext="0" FileVersion="1.30.04.00" Size="151552" SizeOfImage="151552" PeHeaderHash="010138d53d0ceedafe04c800649dbd498da6b6d2e40c" PeChecksum="152947" CrcChecksum="779865651" BinProductVersion="1.30.04.00" BinFileVersion="1.30.4.0" FileDescription="openmpt plugin bridge" LegalCopyright="copyright © 2013-2022 openmpt project developers and contributors" LinkDate="04/24/2022 13:14:15" BinaryType="pe32_i386" LowerCaseLongPath="c:\windows\temp\appcert_2060\30492samuelgomes.openmpt_1.30.4.0_x64__x6kje0v4c1m1y\pluginbridge-x86.exe" />
+            <File Id="0000bcb66c9a6c7176918c7973fd7bcb2a149512ef16" Name="PluginBridgeLegacy-arm.exe" ProductName="openmpt" CompanyName="openmpt" ProductVersion="1.30.04.00" VerLanguage="0" SwitchBackContext="0" FileVersion="1.30.04.00" Size="135168" SizeOfImage="135168" PeHeaderHash="0101790edc4665f2b6e6a04c3e91cbc609159f16e51d" PeChecksum="155640" CrcChecksum="348614418" BinProductVersion="1.30.04.00" BinFileVersion="1.30.4.0" FileDescription="openmpt plugin bridge" LegalCopyright="copyright © 2013-2022 openmpt project developers and contributors" LinkDate="04/24/2022 13:17:44" BinaryType="pe32_arm" LowerCaseLongPath="c:\windows\temp\appcert_2060\30492samuelgomes.openmpt_1.30.4.0_x64__x6kje0v4c1m1y\pluginbridgelegacy-arm.exe" />
+            <File Id="000054652567a9c2676cbfe427f562fcd47d98076f08" Name="PluginBridgeLegacy-x86.exe" ProductName="openmpt" CompanyName="openmpt" ProductVersion="1.30.04.00" VerLanguage="0" SwitchBackContext="0" FileVersion="1.30.04.00" Size="151552" SizeOfImage="151552" PeHeaderHash="010113c00559201bb092dc498b1955bb7fbb8e0b9c04" PeChecksum="182067" CrcChecksum="-699542295" BinProductVersion="1.30.04.00" BinFileVersion="1.30.4.0" FileDescription="openmpt plugin bridge" LegalCopyright="copyright © 2013-2022 openmpt project developers and contributors" LinkDate="04/24/2022 13:14:15" BinaryType="pe32_i386" LowerCaseLongPath="c:\windows\temp\appcert_2060\30492samuelgomes.openmpt_1.30.4.0_x64__x6kje0v4c1m1y\pluginbridgelegacy-x86.exe" />
+            <File Id="0000a8dcd46eb4be4390f23db563b966e8f6c89b2da4" Name="PluginBridgeLegacy-amd64.exe" ProductName="openmpt" CompanyName="openmpt" ProductVersion="1.30.04.00" VerLanguage="0" SwitchBackContext="0" FileVersion="1.30.04.00" Size="196608" SizeOfImage="196608" PeHeaderHash="0101ee415ae213fc13190f24e3ae36102ebaf26cbcd9" PeChecksum="240428" CrcChecksum="85819238" BinProductVersion="1.30.04.00" BinFileVersion="1.30.4.0" FileDescription="openmpt plugin bridge" LegalCopyright="copyright © 2013-2022 openmpt project developers and contributors" LinkDate="04/24/2022 13:17:17" BinaryType="pe64_amd64" LowerCaseLongPath="c:\windows\temp\appcert_2060\30492samuelgomes.openmpt_1.30.4.0_x64__x6kje0v4c1m1y\pluginbridgelegacy-amd64.exe" />
+            <File Id="000063413e2dc5cd9a0184a3771afa279560ab450b1f" Name="PluginBridgeLegacy-arm64.exe" ProductName="openmpt" CompanyName="openmpt" ProductVersion="1.30.04.00" VerLanguage="0" SwitchBackContext="0" FileVersion="1.30.04.00" Size="172032" SizeOfImage="172032" PeHeaderHash="0101fdc1d780ced485c699fb1773eb230e2799937e45" PeChecksum="171243" CrcChecksum="1996062064" BinProductVersion="1.30.04.00" BinFileVersion="1.30.4.0" FileDescription="openmpt plugin bridge" LegalCopyright="copyright © 2013-2022 openmpt project developers and contributors" LinkDate="04/24/2022 13:18:41" BinaryType="pe64_arm64" LowerCaseLongPath="c:\windows\temp\appcert_2060\30492samuelgomes.openmpt_1.30.4.0_x64__x6kje0v4c1m1y\pluginbridgelegacy-arm64.exe" />
+            <File Id="00000961ee7980a359e99c3b648c36ea876bb1947326" Name="Release Notes.html" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="0" SizeOfImage="0" PeHeaderHash="" PeChecksum="0" CrcChecksum="645043777" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="" BinaryType="data_only" LowerCaseLongPath="c:\windows\temp\appcert_2060\30492samuelgomes.openmpt_1.30.4.0_x64__x6kje0v4c1m1y\release notes.html" />
+            <File Id="0000e0902fd2daf460e567401b3dfd142e14c22f2151" Name="resources.pri" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="0" SizeOfImage="0" PeHeaderHash="" PeChecksum="0" CrcChecksum="719183974" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="" BinaryType="data_only" LowerCaseLongPath="c:\windows\temp\appcert_2060\30492samuelgomes.openmpt_1.30.4.0_x64__x6kje0v4c1m1y\resources.pri" />
           </Files>
         </StaticProperties>
       </Program>
     </Installed_Programs>
   </APPLICATIONS>
   <DEPENDENCY_INFORMATION>
-    <AitStaticAnalysis ProgramId="0000da39a3ee5e6b4b0d3255bfef95601890afd80709" AnalysisVersion="1.70" DictionaryVersion="3.6" Type="Max" Id="C:\Windows\temp\appcert_3EC0\30492SamuelGomes.OpenMPT_1.30.3.0_x64__x6kje0v4c1m1y">
+    <AitStaticAnalysis ProgramId="0000da39a3ee5e6b4b0d3255bfef95601890afd80709" AnalysisVersion="1.70" DictionaryVersion="3.6" Type="Max" Id="C:\Windows\temp\appcert_2060\30492SamuelGomes.OpenMPT_1.30.4.0_x64__x6kje0v4c1m1y">
       <AitFile ErrorCode="0" Name="Release Notes.html" Id="00000961ee7980a359e99c3b648c36ea876bb1947326" />
-      <AitFile ErrorCode="0" Name="openmpt-lame.dll" Id="00001224249d6d5ac590097e3b92fa812909e8ac2e98">
-        <AitCategory Id="Com">
-          <AitFeature Name="{00000000-0000-0000-0000-000000000001}" />
-        </AitCategory>
-        <AitCategory Id="ApiDynamic">
-          <AitFeature Name="kernel32.dll!AppPolicyGetProcessTerminationMethod" />
-          <AitFeature Name="kernel32.dll!AreFileApisANSI" />
-          <AitFeature Name="kernel32.dll!InitializeCriticalSectionEx" />
-          <AitFeature Name="kernel32.dll!LCMapStringEx" />
-          <AitFeature Name="kernel32.dll!LocaleNameToLCID" />
-          <AitFeature Name="mscoree.dll!CorExitProcess" />
-          <AitFeature Name="ntdll.dll!cos" />
-          <AitFeature Name="ntdll.dll!log" />
-          <AitFeature Name="ntdll.dll!pow" />
-          <AitFeature Name="ntdll.dll!sin" />
-          <AitFeature Name="ntdll.dll!sqrt" />
-          <AitFeature Name="ntdll.dll!tan" />
-        </AitCategory>
-        <AitCategory Id="ApiStatic">
-          <AitFeature Name="kernel32.dll!CloseHandle" />
-          <AitFeature Name="kernel32.dll!CreateFileW" />
-          <AitFeature Name="kernel32.dll!DeleteCriticalSection" />
-          <AitFeature Name="kernel32.dll!EncodePointer" />
-          <AitFeature Name="kernel32.dll!EnterCriticalSection" />
-          <AitFeature Name="kernel32.dll!ExitProcess" />
-          <AitFeature Name="kernel32.dll!FindClose" />
-          <AitFeature Name="kernel32.dll!FindFirstFileExW" />
-          <AitFeature Name="kernel32.dll!FindNextFileW" />
-          <AitFeature Name="kernel32.dll!FlsAlloc" />
-          <AitFeature Name="kernel32.dll!FlsFree" />
-          <AitFeature Name="kernel32.dll!FlsGetValue" />
-          <AitFeature Name="kernel32.dll!FlsSetValue" />
-          <AitFeature Name="kernel32.dll!FlushFileBuffers" />
-          <AitFeature Name="kernel32.dll!FreeEnvironmentStringsW" />
-          <AitFeature Name="kernel32.dll!FreeLibrary" />
-          <AitFeature Name="kernel32.dll!GetACP" />
-          <AitFeature Name="kernel32.dll!GetCPInfo" />
-          <AitFeature Name="kernel32.dll!GetCommandLineA" />
-          <AitFeature Name="kernel32.dll!GetCommandLineW" />
-          <AitFeature Name="kernel32.dll!GetConsoleMode" />
-          <AitFeature Name="kernel32.dll!GetConsoleOutputCP" />
-          <AitFeature Name="kernel32.dll!GetCurrentProcess" />
-          <AitFeature Name="kernel32.dll!GetCurrentProcessId" />
-          <AitFeature Name="kernel32.dll!GetCurrentThreadId" />
-          <AitFeature Name="kernel32.dll!GetEnvironmentStringsW" />
-          <AitFeature Name="kernel32.dll!GetFileSizeEx" />
-          <AitFeature Name="kernel32.dll!GetFileType" />
-          <AitFeature Name="kernel32.dll!GetLastError" />
-          <AitFeature Name="kernel32.dll!GetModuleFileNameW" />
-          <AitFeature Name="kernel32.dll!GetModuleHandleExW" />
-          <AitFeature Name="kernel32.dll!GetModuleHandleW" />
-          <AitFeature Name="kernel32.dll!GetOEMCP" />
-          <AitFeature Name="kernel32.dll!GetProcAddress" />
-          <AitFeature Name="kernel32.dll!GetProcessHeap" />
-          <AitFeature Name="kernel32.dll!GetStartupInfoW" />
-          <AitFeature Name="kernel32.dll!GetStdHandle" />
-          <AitFeature Name="kernel32.dll!GetStringTypeW" />
-          <AitFeature Name="kernel32.dll!GetSystemTimeAsFileTime" />
-          <AitFeature Name="kernel32.dll!HeapAlloc" />
-          <AitFeature Name="kernel32.dll!HeapFree" />
-          <AitFeature Name="kernel32.dll!HeapReAlloc" />
-          <AitFeature Name="kernel32.dll!HeapSize" />
-          <AitFeature Name="kernel32.dll!InitializeCriticalSectionAndSpinCount" />
-          <AitFeature Name="kernel32.dll!InitializeSListHead" />
-          <AitFeature Name="kernel32.dll!InterlockedFlushSList" />
-          <AitFeature Name="kernel32.dll!IsDebuggerPresent" />
-          <AitFeature Name="kernel32.dll!IsProcessorFeaturePresent" />
-          <AitFeature Name="kernel32.dll!IsValidCodePage" />
-          <AitFeature Name="kernel32.dll!LCMapStringW" />
-          <AitFeature Name="kernel32.dll!LeaveCriticalSection" />
-          <AitFeature Name="kernel32.dll!LoadLibraryExW" />
-          <AitFeature Name="kernel32.dll!MultiByteToWideChar" />
-          <AitFeature Name="kernel32.dll!QueryPerformanceCounter" />
-          <AitFeature Name="kernel32.dll!RaiseException" />
-          <AitFeature Name="kernel32.dll!ReadConsoleW" />
-          <AitFeature Name="kernel32.dll!ReadFile" />
-          <AitFeature Name="kernel32.dll!RtlCaptureContext" />
-          <AitFeature Name="kernel32.dll!RtlLookupFunctionEntry" />
-          <AitFeature Name="kernel32.dll!RtlPcToFileHeader" />
-          <AitFeature Name="kernel32.dll!RtlUnwindEx" />
-          <AitFeature Name="kernel32.dll!RtlVirtualUnwind" />
-          <AitFeature Name="kernel32.dll!SetFilePointerEx" />
-          <AitFeature Name="kernel32.dll!SetLastError" />
-          <AitFeature Name="kernel32.dll!SetStdHandle" />
-          <AitFeature Name="kernel32.dll!SetUnhandledExceptionFilter" />
-          <AitFeature Name="kernel32.dll!TerminateProcess" />
-          <AitFeature Name="kernel32.dll!TlsAlloc" />
-          <AitFeature Name="kernel32.dll!TlsFree" />
-          <AitFeature Name="kernel32.dll!TlsGetValue" />
-          <AitFeature Name="kernel32.dll!TlsSetValue" />
-          <AitFeature Name="kernel32.dll!UnhandledExceptionFilter" />
-          <AitFeature Name="kernel32.dll!WideCharToMultiByte" />
-          <AitFeature Name="kernel32.dll!WriteConsoleW" />
-          <AitFeature Name="kernel32.dll!WriteFile" />
-        </AitCategory>
-      </AitFile>
-      <AitFile ErrorCode="0" Name="PluginBridge-x86.exe" Id="000014aa9f91bd759a84041d64835f43142206c14b76">
+      <AitFile ErrorCode="0" Name="PluginBridgeLegacy-x86.exe" Id="000054652567a9c2676cbfe427f562fcd47d98076f08">
         <AitCategory Id="ApiStatic">
           <AitFeature Name="ole32.dll!CoInitializeEx" />
           <AitFeature Name="ole32.dll!CoUninitialize" />
@@ -559,7 +463,218 @@
           <AitFeature Name="dbghelp.dll!MiniDumpWriteDump" />
         </AitCategory>
       </AitFile>
-      <AitFile ErrorCode="0" Name="OpenMPT.exe" Id="0000173fe2047bc506bc4c497987e1b19b9325f82e6c">
+      <AitFile ErrorCode="0" Name="PluginBridgeLegacy-arm64.exe" Id="000063413e2dc5cd9a0184a3771afa279560ab450b1f">
+        <AitCategory Id="Com">
+          <AitFeature Name="{00000000-0000-0000-0000-000000000001}" />
+        </AitCategory>
+        <AitCategory Id="ApiStatic">
+          <AitFeature Name="ole32.dll!CoInitializeEx" />
+          <AitFeature Name="ole32.dll!CoUninitialize" />
+          <AitFeature Name="kernel32.dll!CloseHandle" />
+          <AitFeature Name="kernel32.dll!CreateDirectoryW" />
+          <AitFeature Name="kernel32.dll!CreateEventW" />
+          <AitFeature Name="kernel32.dll!CreateFileMappingW" />
+          <AitFeature Name="kernel32.dll!CreateFileW" />
+          <AitFeature Name="kernel32.dll!CreateThread" />
+          <AitFeature Name="kernel32.dll!DeleteCriticalSection" />
+          <AitFeature Name="kernel32.dll!DuplicateHandle" />
+          <AitFeature Name="kernel32.dll!EncodePointer" />
+          <AitFeature Name="kernel32.dll!EnterCriticalSection" />
+          <AitFeature Name="kernel32.dll!ExitProcess" />
+          <AitFeature Name="kernel32.dll!FindClose" />
+          <AitFeature Name="kernel32.dll!FindFirstFileExW" />
+          <AitFeature Name="kernel32.dll!FindNextFileW" />
+          <AitFeature Name="kernel32.dll!FlsAlloc" />
+          <AitFeature Name="kernel32.dll!FlsFree" />
+          <AitFeature Name="kernel32.dll!FlsGetValue" />
+          <AitFeature Name="kernel32.dll!FlsSetValue" />
+          <AitFeature Name="kernel32.dll!FlushFileBuffers" />
+          <AitFeature Name="kernel32.dll!FormatMessageW" />
+          <AitFeature Name="kernel32.dll!FreeEnvironmentStringsW" />
+          <AitFeature Name="kernel32.dll!FreeLibrary" />
+          <AitFeature Name="kernel32.dll!GetACP" />
+          <AitFeature Name="kernel32.dll!GetCPInfo" />
+          <AitFeature Name="kernel32.dll!GetCommandLineA" />
+          <AitFeature Name="kernel32.dll!GetCommandLineW" />
+          <AitFeature Name="kernel32.dll!GetConsoleMode" />
+          <AitFeature Name="kernel32.dll!GetConsoleOutputCP" />
+          <AitFeature Name="kernel32.dll!GetCurrentProcess" />
+          <AitFeature Name="kernel32.dll!GetCurrentProcessId" />
+          <AitFeature Name="kernel32.dll!GetCurrentThreadId" />
+          <AitFeature Name="kernel32.dll!GetDateFormatW" />
+          <AitFeature Name="kernel32.dll!GetEnvironmentStringsW" />
+          <AitFeature Name="kernel32.dll!GetFileType" />
+          <AitFeature Name="kernel32.dll!GetLastError" />
+          <AitFeature Name="kernel32.dll!GetModuleFileNameW" />
+          <AitFeature Name="kernel32.dll!GetModuleHandleExW" />
+          <AitFeature Name="kernel32.dll!GetModuleHandleW" />
+          <AitFeature Name="kernel32.dll!GetOEMCP" />
+          <AitFeature Name="kernel32.dll!GetProcAddress" />
+          <AitFeature Name="kernel32.dll!GetProcessHeap" />
+          <AitFeature Name="kernel32.dll!GetStartupInfoW" />
+          <AitFeature Name="kernel32.dll!GetStdHandle" />
+          <AitFeature Name="kernel32.dll!GetStringTypeW" />
+          <AitFeature Name="kernel32.dll!GetSystemTimeAsFileTime" />
+          <AitFeature Name="kernel32.dll!GetTempPathW" />
+          <AitFeature Name="kernel32.dll!GetTimeFormatW" />
+          <AitFeature Name="kernel32.dll!HeapAlloc" />
+          <AitFeature Name="kernel32.dll!HeapFree" />
+          <AitFeature Name="kernel32.dll!HeapReAlloc" />
+          <AitFeature Name="kernel32.dll!HeapSize" />
+          <AitFeature Name="kernel32.dll!InitializeCriticalSectionAndSpinCount" />
+          <AitFeature Name="kernel32.dll!InitializeCriticalSectionEx" />
+          <AitFeature Name="kernel32.dll!InitializeSListHead" />
+          <AitFeature Name="kernel32.dll!IsValidCodePage" />
+          <AitFeature Name="kernel32.dll!LCMapStringW" />
+          <AitFeature Name="kernel32.dll!LeaveCriticalSection" />
+          <AitFeature Name="kernel32.dll!LoadLibraryExW" />
+          <AitFeature Name="kernel32.dll!LoadLibraryW" />
+          <AitFeature Name="kernel32.dll!MapViewOfFile" />
+          <AitFeature Name="kernel32.dll!MultiByteToWideChar" />
+          <AitFeature Name="kernel32.dll!OpenFileMappingW" />
+          <AitFeature Name="kernel32.dll!OpenProcess" />
+          <AitFeature Name="kernel32.dll!QueryPerformanceCounter" />
+          <AitFeature Name="kernel32.dll!RaiseException" />
+          <AitFeature Name="kernel32.dll!RtlLookupFunctionEntry" />
+          <AitFeature Name="kernel32.dll!RtlPcToFileHeader" />
+          <AitFeature Name="kernel32.dll!RtlUnwindEx" />
+          <AitFeature Name="kernel32.dll!SetEvent" />
+          <AitFeature Name="kernel32.dll!SetFilePointerEx" />
+          <AitFeature Name="kernel32.dll!SetLastError" />
+          <AitFeature Name="kernel32.dll!SetStdHandle" />
+          <AitFeature Name="kernel32.dll!SetThreadPriority" />
+          <AitFeature Name="kernel32.dll!SetUnhandledExceptionFilter" />
+          <AitFeature Name="kernel32.dll!SignalObjectAndWait" />
+          <AitFeature Name="kernel32.dll!TerminateProcess" />
+          <AitFeature Name="kernel32.dll!UnmapViewOfFile" />
+          <AitFeature Name="kernel32.dll!WaitForMultipleObjects" />
+          <AitFeature Name="kernel32.dll!WideCharToMultiByte" />
+          <AitFeature Name="kernel32.dll!WriteConsoleW" />
+          <AitFeature Name="kernel32.dll!WriteFile" />
+          <AitFeature Name="shell32.dll!CommandLineToArgvW" />
+          <AitFeature Name="user32.dll!CreateWindowExW" />
+          <AitFeature Name="user32.dll!DefWindowProcW" />
+          <AitFeature Name="user32.dll!DestroyWindow" />
+          <AitFeature Name="user32.dll!DispatchMessageW" />
+          <AitFeature Name="user32.dll!GetClassWord" />
+          <AitFeature Name="user32.dll!GetClientRect" />
+          <AitFeature Name="user32.dll!GetMessageW" />
+          <AitFeature Name="user32.dll!GetParent" />
+          <AitFeature Name="user32.dll!GetWindow" />
+          <AitFeature Name="user32.dll!GetWindowLongPtrW" />
+          <AitFeature Name="user32.dll!GetWindowLongW" />
+          <AitFeature Name="user32.dll!LoadCursorW" />
+          <AitFeature Name="user32.dll!MessageBoxW" />
+          <AitFeature Name="user32.dll!PostMessageW" />
+          <AitFeature Name="user32.dll!PostQuitMessage" />
+          <AitFeature Name="user32.dll!RegisterClassExW" />
+          <AitFeature Name="user32.dll!SendMessageW" />
+          <AitFeature Name="user32.dll!SetTimer" />
+          <AitFeature Name="user32.dll!SetWindowLongPtrW" />
+          <AitFeature Name="user32.dll!SetWindowPos" />
+          <AitFeature Name="user32.dll!TranslateMessage" />
+        </AitCategory>
+        <AitCategory Id="ApiDynamic">
+          <AitFeature Name="kernel32.dll!AppPolicyGetProcessTerminationMethod" />
+          <AitFeature Name="kernel32.dll!AreFileApisANSI" />
+          <AitFeature Name="kernel32.dll!LCMapStringEx" />
+          <AitFeature Name="kernel32.dll!LocaleNameToLCID" />
+          <AitFeature Name="mscoree.dll!CorExitProcess" />
+          <AitFeature Name="dbghelp.dll!MiniDumpWriteDump" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="openmpt-soundtouch.dll" Id="0000637982c771728064f21312eebe94e96a8d79d8b0">
+        <AitCategory Id="Com">
+          <AitFeature Name="{00000000-0000-0000-0000-000000000001}" />
+        </AitCategory>
+        <AitCategory Id="ApiDynamic">
+          <AitFeature Name="kernel32.dll!AppPolicyGetProcessTerminationMethod" />
+          <AitFeature Name="kernel32.dll!AreFileApisANSI" />
+          <AitFeature Name="kernel32.dll!InitializeCriticalSectionEx" />
+          <AitFeature Name="kernel32.dll!LCMapStringEx" />
+          <AitFeature Name="kernel32.dll!LocaleNameToLCID" />
+          <AitFeature Name="mscoree.dll!CorExitProcess" />
+          <AitFeature Name="ntdll.dll!cos" />
+          <AitFeature Name="ntdll.dll!pow" />
+          <AitFeature Name="ntdll.dll!sin" />
+          <AitFeature Name="ntdll.dll!sqrt" />
+        </AitCategory>
+        <AitCategory Id="ApiStatic">
+          <AitFeature Name="kernel32.dll!CloseHandle" />
+          <AitFeature Name="kernel32.dll!CreateFileW" />
+          <AitFeature Name="kernel32.dll!DeleteCriticalSection" />
+          <AitFeature Name="kernel32.dll!EncodePointer" />
+          <AitFeature Name="kernel32.dll!EnterCriticalSection" />
+          <AitFeature Name="kernel32.dll!ExitProcess" />
+          <AitFeature Name="kernel32.dll!FindClose" />
+          <AitFeature Name="kernel32.dll!FindFirstFileExW" />
+          <AitFeature Name="kernel32.dll!FindNextFileW" />
+          <AitFeature Name="kernel32.dll!FlsAlloc" />
+          <AitFeature Name="kernel32.dll!FlsFree" />
+          <AitFeature Name="kernel32.dll!FlsGetValue" />
+          <AitFeature Name="kernel32.dll!FlsSetValue" />
+          <AitFeature Name="kernel32.dll!FlushFileBuffers" />
+          <AitFeature Name="kernel32.dll!FreeEnvironmentStringsW" />
+          <AitFeature Name="kernel32.dll!FreeLibrary" />
+          <AitFeature Name="kernel32.dll!GetACP" />
+          <AitFeature Name="kernel32.dll!GetCPInfo" />
+          <AitFeature Name="kernel32.dll!GetCommandLineA" />
+          <AitFeature Name="kernel32.dll!GetCommandLineW" />
+          <AitFeature Name="kernel32.dll!GetConsoleMode" />
+          <AitFeature Name="kernel32.dll!GetConsoleOutputCP" />
+          <AitFeature Name="kernel32.dll!GetCurrentProcess" />
+          <AitFeature Name="kernel32.dll!GetCurrentProcessId" />
+          <AitFeature Name="kernel32.dll!GetCurrentThreadId" />
+          <AitFeature Name="kernel32.dll!GetEnvironmentStringsW" />
+          <AitFeature Name="kernel32.dll!GetFileType" />
+          <AitFeature Name="kernel32.dll!GetLastError" />
+          <AitFeature Name="kernel32.dll!GetModuleFileNameW" />
+          <AitFeature Name="kernel32.dll!GetModuleHandleExW" />
+          <AitFeature Name="kernel32.dll!GetModuleHandleW" />
+          <AitFeature Name="kernel32.dll!GetOEMCP" />
+          <AitFeature Name="kernel32.dll!GetProcAddress" />
+          <AitFeature Name="kernel32.dll!GetProcessHeap" />
+          <AitFeature Name="kernel32.dll!GetStartupInfoW" />
+          <AitFeature Name="kernel32.dll!GetStdHandle" />
+          <AitFeature Name="kernel32.dll!GetStringTypeW" />
+          <AitFeature Name="kernel32.dll!GetSystemTimeAsFileTime" />
+          <AitFeature Name="kernel32.dll!HeapAlloc" />
+          <AitFeature Name="kernel32.dll!HeapFree" />
+          <AitFeature Name="kernel32.dll!HeapReAlloc" />
+          <AitFeature Name="kernel32.dll!HeapSize" />
+          <AitFeature Name="kernel32.dll!InitializeCriticalSectionAndSpinCount" />
+          <AitFeature Name="kernel32.dll!InitializeSListHead" />
+          <AitFeature Name="kernel32.dll!InterlockedFlushSList" />
+          <AitFeature Name="kernel32.dll!IsDebuggerPresent" />
+          <AitFeature Name="kernel32.dll!IsProcessorFeaturePresent" />
+          <AitFeature Name="kernel32.dll!IsValidCodePage" />
+          <AitFeature Name="kernel32.dll!LCMapStringW" />
+          <AitFeature Name="kernel32.dll!LeaveCriticalSection" />
+          <AitFeature Name="kernel32.dll!LoadLibraryExW" />
+          <AitFeature Name="kernel32.dll!MultiByteToWideChar" />
+          <AitFeature Name="kernel32.dll!QueryPerformanceCounter" />
+          <AitFeature Name="kernel32.dll!RaiseException" />
+          <AitFeature Name="kernel32.dll!RtlCaptureContext" />
+          <AitFeature Name="kernel32.dll!RtlLookupFunctionEntry" />
+          <AitFeature Name="kernel32.dll!RtlPcToFileHeader" />
+          <AitFeature Name="kernel32.dll!RtlUnwindEx" />
+          <AitFeature Name="kernel32.dll!RtlVirtualUnwind" />
+          <AitFeature Name="kernel32.dll!SetFilePointerEx" />
+          <AitFeature Name="kernel32.dll!SetLastError" />
+          <AitFeature Name="kernel32.dll!SetStdHandle" />
+          <AitFeature Name="kernel32.dll!SetUnhandledExceptionFilter" />
+          <AitFeature Name="kernel32.dll!TerminateProcess" />
+          <AitFeature Name="kernel32.dll!TlsAlloc" />
+          <AitFeature Name="kernel32.dll!TlsFree" />
+          <AitFeature Name="kernel32.dll!TlsGetValue" />
+          <AitFeature Name="kernel32.dll!TlsSetValue" />
+          <AitFeature Name="kernel32.dll!UnhandledExceptionFilter" />
+          <AitFeature Name="kernel32.dll!WideCharToMultiByte" />
+          <AitFeature Name="kernel32.dll!WriteConsoleW" />
+          <AitFeature Name="kernel32.dll!WriteFile" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="OpenMPT.exe" Id="000069210d379ed7be60e5a55866226396c5fbfafe97">
         <AitCategory Id="Com">
           <AitFeature Name="{00000000-0000-0000-0000-000000000001}" />
           <AitFeature Name="{00000000-0000-0000-0000-000000000002}" />
@@ -575,6 +690,7 @@
           <AitFeature Name="{00000000-0000-0000-0000-000000000015}" />
           <AitFeature Name="{00000000-0000-0000-0000-000000000018}" />
           <AitFeature Name="{00000000-0000-0000-0000-000000000020}" />
+          <AitFeature Name="{00000000-0000-0000-0000-000000000024}" />
           <AitFeature Name="{00000000-0000-0000-0000-000000000026}" />
           <AitFeature Name="{00000000-0000-0000-0000-000000000027}" />
           <AitFeature Name="{00000000-0000-0000-0000-000000000030}" />
@@ -1511,7 +1627,385 @@
           <AitFeature Name="mfplat.dll!MFStartup" />
         </AitCategory>
       </AitFile>
-      <AitFile ErrorCode="0" Name="openmpt-soundtouch.dll" Id="00001a4be57eefc5119fafee3650422802568e99645b">
+      <AitFile ErrorCode="0" Name="PluginBridge-arm64.exe" Id="0000694eab8f9026a200806755b8cf25cf482369351b">
+        <AitCategory Id="Com">
+          <AitFeature Name="{00000000-0000-0000-0000-000000000001}" />
+        </AitCategory>
+        <AitCategory Id="ApiStatic">
+          <AitFeature Name="ole32.dll!CoInitializeEx" />
+          <AitFeature Name="ole32.dll!CoUninitialize" />
+          <AitFeature Name="kernel32.dll!CloseHandle" />
+          <AitFeature Name="kernel32.dll!CreateDirectoryW" />
+          <AitFeature Name="kernel32.dll!CreateEventW" />
+          <AitFeature Name="kernel32.dll!CreateFileMappingW" />
+          <AitFeature Name="kernel32.dll!CreateFileW" />
+          <AitFeature Name="kernel32.dll!CreateThread" />
+          <AitFeature Name="kernel32.dll!DeleteCriticalSection" />
+          <AitFeature Name="kernel32.dll!DuplicateHandle" />
+          <AitFeature Name="kernel32.dll!EncodePointer" />
+          <AitFeature Name="kernel32.dll!EnterCriticalSection" />
+          <AitFeature Name="kernel32.dll!ExitProcess" />
+          <AitFeature Name="kernel32.dll!FindClose" />
+          <AitFeature Name="kernel32.dll!FindFirstFileExW" />
+          <AitFeature Name="kernel32.dll!FindNextFileW" />
+          <AitFeature Name="kernel32.dll!FlsAlloc" />
+          <AitFeature Name="kernel32.dll!FlsFree" />
+          <AitFeature Name="kernel32.dll!FlsGetValue" />
+          <AitFeature Name="kernel32.dll!FlsSetValue" />
+          <AitFeature Name="kernel32.dll!FlushFileBuffers" />
+          <AitFeature Name="kernel32.dll!FormatMessageW" />
+          <AitFeature Name="kernel32.dll!FreeEnvironmentStringsW" />
+          <AitFeature Name="kernel32.dll!FreeLibrary" />
+          <AitFeature Name="kernel32.dll!GetACP" />
+          <AitFeature Name="kernel32.dll!GetCPInfo" />
+          <AitFeature Name="kernel32.dll!GetCommandLineA" />
+          <AitFeature Name="kernel32.dll!GetCommandLineW" />
+          <AitFeature Name="kernel32.dll!GetConsoleMode" />
+          <AitFeature Name="kernel32.dll!GetConsoleOutputCP" />
+          <AitFeature Name="kernel32.dll!GetCurrentProcess" />
+          <AitFeature Name="kernel32.dll!GetCurrentProcessId" />
+          <AitFeature Name="kernel32.dll!GetCurrentThreadId" />
+          <AitFeature Name="kernel32.dll!GetDateFormatW" />
+          <AitFeature Name="kernel32.dll!GetEnvironmentStringsW" />
+          <AitFeature Name="kernel32.dll!GetFileType" />
+          <AitFeature Name="kernel32.dll!GetLastError" />
+          <AitFeature Name="kernel32.dll!GetModuleFileNameW" />
+          <AitFeature Name="kernel32.dll!GetModuleHandleExW" />
+          <AitFeature Name="kernel32.dll!GetModuleHandleW" />
+          <AitFeature Name="kernel32.dll!GetOEMCP" />
+          <AitFeature Name="kernel32.dll!GetProcAddress" />
+          <AitFeature Name="kernel32.dll!GetProcessHeap" />
+          <AitFeature Name="kernel32.dll!GetStartupInfoW" />
+          <AitFeature Name="kernel32.dll!GetStdHandle" />
+          <AitFeature Name="kernel32.dll!GetStringTypeW" />
+          <AitFeature Name="kernel32.dll!GetSystemTimeAsFileTime" />
+          <AitFeature Name="kernel32.dll!GetTempPathW" />
+          <AitFeature Name="kernel32.dll!GetTimeFormatW" />
+          <AitFeature Name="kernel32.dll!HeapAlloc" />
+          <AitFeature Name="kernel32.dll!HeapFree" />
+          <AitFeature Name="kernel32.dll!HeapReAlloc" />
+          <AitFeature Name="kernel32.dll!HeapSize" />
+          <AitFeature Name="kernel32.dll!InitializeCriticalSectionAndSpinCount" />
+          <AitFeature Name="kernel32.dll!InitializeCriticalSectionEx" />
+          <AitFeature Name="kernel32.dll!InitializeSListHead" />
+          <AitFeature Name="kernel32.dll!IsValidCodePage" />
+          <AitFeature Name="kernel32.dll!LCMapStringW" />
+          <AitFeature Name="kernel32.dll!LeaveCriticalSection" />
+          <AitFeature Name="kernel32.dll!LoadLibraryExW" />
+          <AitFeature Name="kernel32.dll!LoadLibraryW" />
+          <AitFeature Name="kernel32.dll!MapViewOfFile" />
+          <AitFeature Name="kernel32.dll!MultiByteToWideChar" />
+          <AitFeature Name="kernel32.dll!OpenFileMappingW" />
+          <AitFeature Name="kernel32.dll!OpenProcess" />
+          <AitFeature Name="kernel32.dll!QueryPerformanceCounter" />
+          <AitFeature Name="kernel32.dll!RaiseException" />
+          <AitFeature Name="kernel32.dll!RtlLookupFunctionEntry" />
+          <AitFeature Name="kernel32.dll!RtlPcToFileHeader" />
+          <AitFeature Name="kernel32.dll!RtlUnwindEx" />
+          <AitFeature Name="kernel32.dll!SetEvent" />
+          <AitFeature Name="kernel32.dll!SetFilePointerEx" />
+          <AitFeature Name="kernel32.dll!SetLastError" />
+          <AitFeature Name="kernel32.dll!SetStdHandle" />
+          <AitFeature Name="kernel32.dll!SetThreadPriority" />
+          <AitFeature Name="kernel32.dll!SetUnhandledExceptionFilter" />
+          <AitFeature Name="kernel32.dll!SignalObjectAndWait" />
+          <AitFeature Name="kernel32.dll!TerminateProcess" />
+          <AitFeature Name="kernel32.dll!UnmapViewOfFile" />
+          <AitFeature Name="kernel32.dll!WaitForMultipleObjects" />
+          <AitFeature Name="kernel32.dll!WideCharToMultiByte" />
+          <AitFeature Name="kernel32.dll!WriteConsoleW" />
+          <AitFeature Name="kernel32.dll!WriteFile" />
+          <AitFeature Name="shell32.dll!CommandLineToArgvW" />
+          <AitFeature Name="user32.dll!CreateWindowExW" />
+          <AitFeature Name="user32.dll!DefWindowProcW" />
+          <AitFeature Name="user32.dll!DestroyWindow" />
+          <AitFeature Name="user32.dll!DispatchMessageW" />
+          <AitFeature Name="user32.dll!GetClassWord" />
+          <AitFeature Name="user32.dll!GetClientRect" />
+          <AitFeature Name="user32.dll!GetMessageW" />
+          <AitFeature Name="user32.dll!GetParent" />
+          <AitFeature Name="user32.dll!GetWindow" />
+          <AitFeature Name="user32.dll!GetWindowLongPtrW" />
+          <AitFeature Name="user32.dll!GetWindowLongW" />
+          <AitFeature Name="user32.dll!LoadCursorW" />
+          <AitFeature Name="user32.dll!MessageBoxW" />
+          <AitFeature Name="user32.dll!PostMessageW" />
+          <AitFeature Name="user32.dll!PostQuitMessage" />
+          <AitFeature Name="user32.dll!RegisterClassExW" />
+          <AitFeature Name="user32.dll!SendMessageW" />
+          <AitFeature Name="user32.dll!SetTimer" />
+          <AitFeature Name="user32.dll!SetWindowLongPtrW" />
+          <AitFeature Name="user32.dll!SetWindowPos" />
+          <AitFeature Name="user32.dll!TranslateMessage" />
+        </AitCategory>
+        <AitCategory Id="ApiDynamic">
+          <AitFeature Name="kernel32.dll!AppPolicyGetProcessTerminationMethod" />
+          <AitFeature Name="kernel32.dll!AreFileApisANSI" />
+          <AitFeature Name="kernel32.dll!LCMapStringEx" />
+          <AitFeature Name="kernel32.dll!LocaleNameToLCID" />
+          <AitFeature Name="mscoree.dll!CorExitProcess" />
+          <AitFeature Name="dbghelp.dll!MiniDumpWriteDump" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="PluginBridgeLegacy-amd64.exe" Id="0000a8dcd46eb4be4390f23db563b966e8f6c89b2da4">
+        <AitCategory Id="Com">
+          <AitFeature Name="{00000000-0000-0000-0000-000000000001}" />
+        </AitCategory>
+        <AitCategory Id="ApiStatic">
+          <AitFeature Name="ole32.dll!CoInitializeEx" />
+          <AitFeature Name="ole32.dll!CoUninitialize" />
+          <AitFeature Name="kernel32.dll!CloseHandle" />
+          <AitFeature Name="kernel32.dll!CreateDirectoryW" />
+          <AitFeature Name="kernel32.dll!CreateEventW" />
+          <AitFeature Name="kernel32.dll!CreateFileMappingW" />
+          <AitFeature Name="kernel32.dll!CreateFileW" />
+          <AitFeature Name="kernel32.dll!CreateThread" />
+          <AitFeature Name="kernel32.dll!DeleteCriticalSection" />
+          <AitFeature Name="kernel32.dll!DuplicateHandle" />
+          <AitFeature Name="kernel32.dll!EncodePointer" />
+          <AitFeature Name="kernel32.dll!EnterCriticalSection" />
+          <AitFeature Name="kernel32.dll!ExitProcess" />
+          <AitFeature Name="kernel32.dll!FindClose" />
+          <AitFeature Name="kernel32.dll!FindFirstFileExW" />
+          <AitFeature Name="kernel32.dll!FindNextFileW" />
+          <AitFeature Name="kernel32.dll!FlsAlloc" />
+          <AitFeature Name="kernel32.dll!FlsFree" />
+          <AitFeature Name="kernel32.dll!FlsGetValue" />
+          <AitFeature Name="kernel32.dll!FlsSetValue" />
+          <AitFeature Name="kernel32.dll!FlushFileBuffers" />
+          <AitFeature Name="kernel32.dll!FormatMessageW" />
+          <AitFeature Name="kernel32.dll!FreeEnvironmentStringsW" />
+          <AitFeature Name="kernel32.dll!FreeLibrary" />
+          <AitFeature Name="kernel32.dll!GetACP" />
+          <AitFeature Name="kernel32.dll!GetCPInfo" />
+          <AitFeature Name="kernel32.dll!GetCommandLineA" />
+          <AitFeature Name="kernel32.dll!GetCommandLineW" />
+          <AitFeature Name="kernel32.dll!GetConsoleMode" />
+          <AitFeature Name="kernel32.dll!GetConsoleOutputCP" />
+          <AitFeature Name="kernel32.dll!GetCurrentProcess" />
+          <AitFeature Name="kernel32.dll!GetCurrentProcessId" />
+          <AitFeature Name="kernel32.dll!GetCurrentThreadId" />
+          <AitFeature Name="kernel32.dll!GetDateFormatW" />
+          <AitFeature Name="kernel32.dll!GetEnvironmentStringsW" />
+          <AitFeature Name="kernel32.dll!GetFileType" />
+          <AitFeature Name="kernel32.dll!GetLastError" />
+          <AitFeature Name="kernel32.dll!GetModuleFileNameW" />
+          <AitFeature Name="kernel32.dll!GetModuleHandleExW" />
+          <AitFeature Name="kernel32.dll!GetModuleHandleW" />
+          <AitFeature Name="kernel32.dll!GetOEMCP" />
+          <AitFeature Name="kernel32.dll!GetProcAddress" />
+          <AitFeature Name="kernel32.dll!GetProcessHeap" />
+          <AitFeature Name="kernel32.dll!GetStartupInfoW" />
+          <AitFeature Name="kernel32.dll!GetStdHandle" />
+          <AitFeature Name="kernel32.dll!GetStringTypeW" />
+          <AitFeature Name="kernel32.dll!GetSystemTimeAsFileTime" />
+          <AitFeature Name="kernel32.dll!GetTempPathW" />
+          <AitFeature Name="kernel32.dll!GetTimeFormatW" />
+          <AitFeature Name="kernel32.dll!HeapAlloc" />
+          <AitFeature Name="kernel32.dll!HeapFree" />
+          <AitFeature Name="kernel32.dll!HeapReAlloc" />
+          <AitFeature Name="kernel32.dll!HeapSize" />
+          <AitFeature Name="kernel32.dll!InitializeCriticalSectionAndSpinCount" />
+          <AitFeature Name="kernel32.dll!InitializeSListHead" />
+          <AitFeature Name="kernel32.dll!IsDebuggerPresent" />
+          <AitFeature Name="kernel32.dll!IsProcessorFeaturePresent" />
+          <AitFeature Name="kernel32.dll!IsValidCodePage" />
+          <AitFeature Name="kernel32.dll!LCMapStringW" />
+          <AitFeature Name="kernel32.dll!LeaveCriticalSection" />
+          <AitFeature Name="kernel32.dll!LoadLibraryExW" />
+          <AitFeature Name="kernel32.dll!LoadLibraryW" />
+          <AitFeature Name="kernel32.dll!MapViewOfFile" />
+          <AitFeature Name="kernel32.dll!MultiByteToWideChar" />
+          <AitFeature Name="kernel32.dll!OpenFileMappingW" />
+          <AitFeature Name="kernel32.dll!OpenProcess" />
+          <AitFeature Name="kernel32.dll!QueryPerformanceCounter" />
+          <AitFeature Name="kernel32.dll!RaiseException" />
+          <AitFeature Name="kernel32.dll!RtlCaptureContext" />
+          <AitFeature Name="kernel32.dll!RtlLookupFunctionEntry" />
+          <AitFeature Name="kernel32.dll!RtlPcToFileHeader" />
+          <AitFeature Name="kernel32.dll!RtlUnwindEx" />
+          <AitFeature Name="kernel32.dll!RtlVirtualUnwind" />
+          <AitFeature Name="kernel32.dll!SetEvent" />
+          <AitFeature Name="kernel32.dll!SetFilePointerEx" />
+          <AitFeature Name="kernel32.dll!SetLastError" />
+          <AitFeature Name="kernel32.dll!SetStdHandle" />
+          <AitFeature Name="kernel32.dll!SetThreadPriority" />
+          <AitFeature Name="kernel32.dll!SetUnhandledExceptionFilter" />
+          <AitFeature Name="kernel32.dll!SignalObjectAndWait" />
+          <AitFeature Name="kernel32.dll!TerminateProcess" />
+          <AitFeature Name="kernel32.dll!TlsAlloc" />
+          <AitFeature Name="kernel32.dll!TlsFree" />
+          <AitFeature Name="kernel32.dll!TlsGetValue" />
+          <AitFeature Name="kernel32.dll!TlsSetValue" />
+          <AitFeature Name="kernel32.dll!UnhandledExceptionFilter" />
+          <AitFeature Name="kernel32.dll!UnmapViewOfFile" />
+          <AitFeature Name="kernel32.dll!WaitForMultipleObjects" />
+          <AitFeature Name="kernel32.dll!WideCharToMultiByte" />
+          <AitFeature Name="kernel32.dll!WriteConsoleW" />
+          <AitFeature Name="kernel32.dll!WriteFile" />
+          <AitFeature Name="shell32.dll!CommandLineToArgvW" />
+          <AitFeature Name="user32.dll!CreateWindowExW" />
+          <AitFeature Name="user32.dll!DefWindowProcW" />
+          <AitFeature Name="user32.dll!DestroyWindow" />
+          <AitFeature Name="user32.dll!DispatchMessageW" />
+          <AitFeature Name="user32.dll!GetClassWord" />
+          <AitFeature Name="user32.dll!GetClientRect" />
+          <AitFeature Name="user32.dll!GetMessageW" />
+          <AitFeature Name="user32.dll!GetParent" />
+          <AitFeature Name="user32.dll!GetWindow" />
+          <AitFeature Name="user32.dll!GetWindowLongPtrW" />
+          <AitFeature Name="user32.dll!GetWindowLongW" />
+          <AitFeature Name="user32.dll!LoadCursorW" />
+          <AitFeature Name="user32.dll!MessageBoxW" />
+          <AitFeature Name="user32.dll!PostMessageW" />
+          <AitFeature Name="user32.dll!PostQuitMessage" />
+          <AitFeature Name="user32.dll!RegisterClassExW" />
+          <AitFeature Name="user32.dll!SendMessageW" />
+          <AitFeature Name="user32.dll!SetTimer" />
+          <AitFeature Name="user32.dll!SetWindowLongPtrW" />
+          <AitFeature Name="user32.dll!SetWindowPos" />
+          <AitFeature Name="user32.dll!TranslateMessage" />
+        </AitCategory>
+        <AitCategory Id="ApiDynamic">
+          <AitFeature Name="kernel32.dll!AppPolicyGetProcessTerminationMethod" />
+          <AitFeature Name="kernel32.dll!AreFileApisANSI" />
+          <AitFeature Name="kernel32.dll!InitializeCriticalSectionEx" />
+          <AitFeature Name="kernel32.dll!LCMapStringEx" />
+          <AitFeature Name="kernel32.dll!LocaleNameToLCID" />
+          <AitFeature Name="mscoree.dll!CorExitProcess" />
+          <AitFeature Name="dbghelp.dll!MiniDumpWriteDump" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="PluginBridge-amd64.exe" Id="0000adc3d79666017bbceae6b3652dd83442beca8681">
+        <AitCategory Id="Com">
+          <AitFeature Name="{00000000-0000-0000-0000-000000000001}" />
+        </AitCategory>
+        <AitCategory Id="ApiStatic">
+          <AitFeature Name="ole32.dll!CoInitializeEx" />
+          <AitFeature Name="ole32.dll!CoUninitialize" />
+          <AitFeature Name="kernel32.dll!CloseHandle" />
+          <AitFeature Name="kernel32.dll!CreateDirectoryW" />
+          <AitFeature Name="kernel32.dll!CreateEventW" />
+          <AitFeature Name="kernel32.dll!CreateFileMappingW" />
+          <AitFeature Name="kernel32.dll!CreateFileW" />
+          <AitFeature Name="kernel32.dll!CreateThread" />
+          <AitFeature Name="kernel32.dll!DeleteCriticalSection" />
+          <AitFeature Name="kernel32.dll!DuplicateHandle" />
+          <AitFeature Name="kernel32.dll!EncodePointer" />
+          <AitFeature Name="kernel32.dll!EnterCriticalSection" />
+          <AitFeature Name="kernel32.dll!ExitProcess" />
+          <AitFeature Name="kernel32.dll!FindClose" />
+          <AitFeature Name="kernel32.dll!FindFirstFileExW" />
+          <AitFeature Name="kernel32.dll!FindNextFileW" />
+          <AitFeature Name="kernel32.dll!FlsAlloc" />
+          <AitFeature Name="kernel32.dll!FlsFree" />
+          <AitFeature Name="kernel32.dll!FlsGetValue" />
+          <AitFeature Name="kernel32.dll!FlsSetValue" />
+          <AitFeature Name="kernel32.dll!FlushFileBuffers" />
+          <AitFeature Name="kernel32.dll!FormatMessageW" />
+          <AitFeature Name="kernel32.dll!FreeEnvironmentStringsW" />
+          <AitFeature Name="kernel32.dll!FreeLibrary" />
+          <AitFeature Name="kernel32.dll!GetACP" />
+          <AitFeature Name="kernel32.dll!GetCPInfo" />
+          <AitFeature Name="kernel32.dll!GetCommandLineA" />
+          <AitFeature Name="kernel32.dll!GetCommandLineW" />
+          <AitFeature Name="kernel32.dll!GetConsoleMode" />
+          <AitFeature Name="kernel32.dll!GetConsoleOutputCP" />
+          <AitFeature Name="kernel32.dll!GetCurrentProcess" />
+          <AitFeature Name="kernel32.dll!GetCurrentProcessId" />
+          <AitFeature Name="kernel32.dll!GetCurrentThreadId" />
+          <AitFeature Name="kernel32.dll!GetDateFormatW" />
+          <AitFeature Name="kernel32.dll!GetEnvironmentStringsW" />
+          <AitFeature Name="kernel32.dll!GetFileType" />
+          <AitFeature Name="kernel32.dll!GetLastError" />
+          <AitFeature Name="kernel32.dll!GetModuleFileNameW" />
+          <AitFeature Name="kernel32.dll!GetModuleHandleExW" />
+          <AitFeature Name="kernel32.dll!GetModuleHandleW" />
+          <AitFeature Name="kernel32.dll!GetOEMCP" />
+          <AitFeature Name="kernel32.dll!GetProcAddress" />
+          <AitFeature Name="kernel32.dll!GetProcessHeap" />
+          <AitFeature Name="kernel32.dll!GetStartupInfoW" />
+          <AitFeature Name="kernel32.dll!GetStdHandle" />
+          <AitFeature Name="kernel32.dll!GetStringTypeW" />
+          <AitFeature Name="kernel32.dll!GetSystemTimeAsFileTime" />
+          <AitFeature Name="kernel32.dll!GetTempPathW" />
+          <AitFeature Name="kernel32.dll!GetTimeFormatW" />
+          <AitFeature Name="kernel32.dll!HeapAlloc" />
+          <AitFeature Name="kernel32.dll!HeapFree" />
+          <AitFeature Name="kernel32.dll!HeapReAlloc" />
+          <AitFeature Name="kernel32.dll!HeapSize" />
+          <AitFeature Name="kernel32.dll!InitializeCriticalSectionAndSpinCount" />
+          <AitFeature Name="kernel32.dll!InitializeSListHead" />
+          <AitFeature Name="kernel32.dll!IsDebuggerPresent" />
+          <AitFeature Name="kernel32.dll!IsProcessorFeaturePresent" />
+          <AitFeature Name="kernel32.dll!IsValidCodePage" />
+          <AitFeature Name="kernel32.dll!LCMapStringW" />
+          <AitFeature Name="kernel32.dll!LeaveCriticalSection" />
+          <AitFeature Name="kernel32.dll!LoadLibraryExW" />
+          <AitFeature Name="kernel32.dll!LoadLibraryW" />
+          <AitFeature Name="kernel32.dll!MapViewOfFile" />
+          <AitFeature Name="kernel32.dll!MultiByteToWideChar" />
+          <AitFeature Name="kernel32.dll!OpenFileMappingW" />
+          <AitFeature Name="kernel32.dll!OpenProcess" />
+          <AitFeature Name="kernel32.dll!QueryPerformanceCounter" />
+          <AitFeature Name="kernel32.dll!RaiseException" />
+          <AitFeature Name="kernel32.dll!RtlCaptureContext" />
+          <AitFeature Name="kernel32.dll!RtlLookupFunctionEntry" />
+          <AitFeature Name="kernel32.dll!RtlPcToFileHeader" />
+          <AitFeature Name="kernel32.dll!RtlUnwindEx" />
+          <AitFeature Name="kernel32.dll!RtlVirtualUnwind" />
+          <AitFeature Name="kernel32.dll!SetEvent" />
+          <AitFeature Name="kernel32.dll!SetFilePointerEx" />
+          <AitFeature Name="kernel32.dll!SetLastError" />
+          <AitFeature Name="kernel32.dll!SetStdHandle" />
+          <AitFeature Name="kernel32.dll!SetThreadPriority" />
+          <AitFeature Name="kernel32.dll!SetUnhandledExceptionFilter" />
+          <AitFeature Name="kernel32.dll!SignalObjectAndWait" />
+          <AitFeature Name="kernel32.dll!TerminateProcess" />
+          <AitFeature Name="kernel32.dll!TlsAlloc" />
+          <AitFeature Name="kernel32.dll!TlsFree" />
+          <AitFeature Name="kernel32.dll!TlsGetValue" />
+          <AitFeature Name="kernel32.dll!TlsSetValue" />
+          <AitFeature Name="kernel32.dll!UnhandledExceptionFilter" />
+          <AitFeature Name="kernel32.dll!UnmapViewOfFile" />
+          <AitFeature Name="kernel32.dll!WaitForMultipleObjects" />
+          <AitFeature Name="kernel32.dll!WideCharToMultiByte" />
+          <AitFeature Name="kernel32.dll!WriteConsoleW" />
+          <AitFeature Name="kernel32.dll!WriteFile" />
+          <AitFeature Name="shell32.dll!CommandLineToArgvW" />
+          <AitFeature Name="user32.dll!CreateWindowExW" />
+          <AitFeature Name="user32.dll!DefWindowProcW" />
+          <AitFeature Name="user32.dll!DestroyWindow" />
+          <AitFeature Name="user32.dll!DispatchMessageW" />
+          <AitFeature Name="user32.dll!GetClassWord" />
+          <AitFeature Name="user32.dll!GetClientRect" />
+          <AitFeature Name="user32.dll!GetMessageW" />
+          <AitFeature Name="user32.dll!GetParent" />
+          <AitFeature Name="user32.dll!GetWindow" />
+          <AitFeature Name="user32.dll!GetWindowLongPtrW" />
+          <AitFeature Name="user32.dll!GetWindowLongW" />
+          <AitFeature Name="user32.dll!LoadCursorW" />
+          <AitFeature Name="user32.dll!MessageBoxW" />
+          <AitFeature Name="user32.dll!PostMessageW" />
+          <AitFeature Name="user32.dll!PostQuitMessage" />
+          <AitFeature Name="user32.dll!RegisterClassExW" />
+          <AitFeature Name="user32.dll!SendMessageW" />
+          <AitFeature Name="user32.dll!SetTimer" />
+          <AitFeature Name="user32.dll!SetWindowLongPtrW" />
+          <AitFeature Name="user32.dll!SetWindowPos" />
+          <AitFeature Name="user32.dll!TranslateMessage" />
+        </AitCategory>
+        <AitCategory Id="ApiDynamic">
+          <AitFeature Name="kernel32.dll!AppPolicyGetProcessTerminationMethod" />
+          <AitFeature Name="kernel32.dll!AreFileApisANSI" />
+          <AitFeature Name="kernel32.dll!InitializeCriticalSectionEx" />
+          <AitFeature Name="kernel32.dll!LCMapStringEx" />
+          <AitFeature Name="kernel32.dll!LocaleNameToLCID" />
+          <AitFeature Name="mscoree.dll!CorExitProcess" />
+          <AitFeature Name="dbghelp.dll!MiniDumpWriteDump" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="openmpt-lame.dll" Id="0000baff99fbbba615fad092afd1e2722f689f505094">
         <AitCategory Id="Com">
           <AitFeature Name="{00000000-0000-0000-0000-000000000001}" />
         </AitCategory>
@@ -1523,9 +2017,11 @@
           <AitFeature Name="kernel32.dll!LocaleNameToLCID" />
           <AitFeature Name="mscoree.dll!CorExitProcess" />
           <AitFeature Name="ntdll.dll!cos" />
+          <AitFeature Name="ntdll.dll!log" />
           <AitFeature Name="ntdll.dll!pow" />
           <AitFeature Name="ntdll.dll!sin" />
           <AitFeature Name="ntdll.dll!sqrt" />
+          <AitFeature Name="ntdll.dll!tan" />
         </AitCategory>
         <AitCategory Id="ApiStatic">
           <AitFeature Name="kernel32.dll!CloseHandle" />
@@ -1554,6 +2050,7 @@
           <AitFeature Name="kernel32.dll!GetCurrentProcessId" />
           <AitFeature Name="kernel32.dll!GetCurrentThreadId" />
           <AitFeature Name="kernel32.dll!GetEnvironmentStringsW" />
+          <AitFeature Name="kernel32.dll!GetFileSizeEx" />
           <AitFeature Name="kernel32.dll!GetFileType" />
           <AitFeature Name="kernel32.dll!GetLastError" />
           <AitFeature Name="kernel32.dll!GetModuleFileNameW" />
@@ -1582,6 +2079,8 @@
           <AitFeature Name="kernel32.dll!MultiByteToWideChar" />
           <AitFeature Name="kernel32.dll!QueryPerformanceCounter" />
           <AitFeature Name="kernel32.dll!RaiseException" />
+          <AitFeature Name="kernel32.dll!ReadConsoleW" />
+          <AitFeature Name="kernel32.dll!ReadFile" />
           <AitFeature Name="kernel32.dll!RtlCaptureContext" />
           <AitFeature Name="kernel32.dll!RtlLookupFunctionEntry" />
           <AitFeature Name="kernel32.dll!RtlPcToFileHeader" />
@@ -1602,10 +2101,7 @@
           <AitFeature Name="kernel32.dll!WriteFile" />
         </AitCategory>
       </AitFile>
-      <AitFile ErrorCode="0" Name="PluginBridge-amd64.exe" Id="00003af944452f6d6ef5cd9d9726efa813e5505589bd">
-        <AitCategory Id="Com">
-          <AitFeature Name="{00000000-0000-0000-0000-000000000001}" />
-        </AitCategory>
+      <AitFile ErrorCode="0" Name="PluginBridgeLegacy-arm.exe" Id="0000bcb66c9a6c7176918c7973fd7bcb2a149512ef16">
         <AitCategory Id="ApiStatic">
           <AitFeature Name="ole32.dll!CoInitializeEx" />
           <AitFeature Name="ole32.dll!CoUninitialize" />
@@ -1661,8 +2157,8 @@
           <AitFeature Name="kernel32.dll!HeapReAlloc" />
           <AitFeature Name="kernel32.dll!HeapSize" />
           <AitFeature Name="kernel32.dll!InitializeCriticalSectionAndSpinCount" />
+          <AitFeature Name="kernel32.dll!InitializeCriticalSectionEx" />
           <AitFeature Name="kernel32.dll!InitializeSListHead" />
-          <AitFeature Name="kernel32.dll!IsDebuggerPresent" />
           <AitFeature Name="kernel32.dll!IsProcessorFeaturePresent" />
           <AitFeature Name="kernel32.dll!IsValidCodePage" />
           <AitFeature Name="kernel32.dll!LCMapStringW" />
@@ -1675,11 +2171,9 @@
           <AitFeature Name="kernel32.dll!OpenProcess" />
           <AitFeature Name="kernel32.dll!QueryPerformanceCounter" />
           <AitFeature Name="kernel32.dll!RaiseException" />
-          <AitFeature Name="kernel32.dll!RtlCaptureContext" />
           <AitFeature Name="kernel32.dll!RtlLookupFunctionEntry" />
           <AitFeature Name="kernel32.dll!RtlPcToFileHeader" />
           <AitFeature Name="kernel32.dll!RtlUnwindEx" />
-          <AitFeature Name="kernel32.dll!RtlVirtualUnwind" />
           <AitFeature Name="kernel32.dll!SetEvent" />
           <AitFeature Name="kernel32.dll!SetFilePointerEx" />
           <AitFeature Name="kernel32.dll!SetLastError" />
@@ -1688,11 +2182,6 @@
           <AitFeature Name="kernel32.dll!SetUnhandledExceptionFilter" />
           <AitFeature Name="kernel32.dll!SignalObjectAndWait" />
           <AitFeature Name="kernel32.dll!TerminateProcess" />
-          <AitFeature Name="kernel32.dll!TlsAlloc" />
-          <AitFeature Name="kernel32.dll!TlsFree" />
-          <AitFeature Name="kernel32.dll!TlsGetValue" />
-          <AitFeature Name="kernel32.dll!TlsSetValue" />
-          <AitFeature Name="kernel32.dll!UnhandledExceptionFilter" />
           <AitFeature Name="kernel32.dll!UnmapViewOfFile" />
           <AitFeature Name="kernel32.dll!WaitForMultipleObjects" />
           <AitFeature Name="kernel32.dll!WideCharToMultiByte" />
@@ -1708,7 +2197,6 @@
           <AitFeature Name="user32.dll!GetMessageW" />
           <AitFeature Name="user32.dll!GetParent" />
           <AitFeature Name="user32.dll!GetWindow" />
-          <AitFeature Name="user32.dll!GetWindowLongPtrW" />
           <AitFeature Name="user32.dll!GetWindowLongW" />
           <AitFeature Name="user32.dll!LoadCursorW" />
           <AitFeature Name="user32.dll!MessageBoxW" />
@@ -1717,24 +2205,20 @@
           <AitFeature Name="user32.dll!RegisterClassExW" />
           <AitFeature Name="user32.dll!SendMessageW" />
           <AitFeature Name="user32.dll!SetTimer" />
-          <AitFeature Name="user32.dll!SetWindowLongPtrW" />
+          <AitFeature Name="user32.dll!SetWindowLongW" />
           <AitFeature Name="user32.dll!SetWindowPos" />
           <AitFeature Name="user32.dll!TranslateMessage" />
         </AitCategory>
         <AitCategory Id="ApiDynamic">
           <AitFeature Name="kernel32.dll!AppPolicyGetProcessTerminationMethod" />
           <AitFeature Name="kernel32.dll!AreFileApisANSI" />
-          <AitFeature Name="kernel32.dll!InitializeCriticalSectionEx" />
           <AitFeature Name="kernel32.dll!LCMapStringEx" />
           <AitFeature Name="kernel32.dll!LocaleNameToLCID" />
           <AitFeature Name="mscoree.dll!CorExitProcess" />
           <AitFeature Name="dbghelp.dll!MiniDumpWriteDump" />
         </AitCategory>
       </AitFile>
-      <AitFile ErrorCode="0" Name="PluginBridgeLegacy-arm64.exe" Id="00003e3d84f49eb4c483c290439ec3409d75f1b8a6be">
-        <AitCategory Id="Com">
-          <AitFeature Name="{00000000-0000-0000-0000-000000000001}" />
-        </AitCategory>
+      <AitFile ErrorCode="0" Name="PluginBridge-arm.exe" Id="0000bdd9243d352a72f81d54ee7c4582e3b6c7fe26ea">
         <AitCategory Id="ApiStatic">
           <AitFeature Name="ole32.dll!CoInitializeEx" />
           <AitFeature Name="ole32.dll!CoUninitialize" />
@@ -1792,6 +2276,7 @@
           <AitFeature Name="kernel32.dll!InitializeCriticalSectionAndSpinCount" />
           <AitFeature Name="kernel32.dll!InitializeCriticalSectionEx" />
           <AitFeature Name="kernel32.dll!InitializeSListHead" />
+          <AitFeature Name="kernel32.dll!IsProcessorFeaturePresent" />
           <AitFeature Name="kernel32.dll!IsValidCodePage" />
           <AitFeature Name="kernel32.dll!LCMapStringW" />
           <AitFeature Name="kernel32.dll!LeaveCriticalSection" />
@@ -1829,7 +2314,6 @@
           <AitFeature Name="user32.dll!GetMessageW" />
           <AitFeature Name="user32.dll!GetParent" />
           <AitFeature Name="user32.dll!GetWindow" />
-          <AitFeature Name="user32.dll!GetWindowLongPtrW" />
           <AitFeature Name="user32.dll!GetWindowLongW" />
           <AitFeature Name="user32.dll!LoadCursorW" />
           <AitFeature Name="user32.dll!MessageBoxW" />
@@ -1838,7 +2322,7 @@
           <AitFeature Name="user32.dll!RegisterClassExW" />
           <AitFeature Name="user32.dll!SendMessageW" />
           <AitFeature Name="user32.dll!SetTimer" />
-          <AitFeature Name="user32.dll!SetWindowLongPtrW" />
+          <AitFeature Name="user32.dll!SetWindowLongW" />
           <AitFeature Name="user32.dll!SetWindowPos" />
           <AitFeature Name="user32.dll!TranslateMessage" />
         </AitCategory>
@@ -1851,7 +2335,102 @@
           <AitFeature Name="dbghelp.dll!MiniDumpWriteDump" />
         </AitCategory>
       </AitFile>
-      <AitFile ErrorCode="0" Name="PluginBridgeLegacy-x86.exe" Id="00003ebd1082d7be8c40b25f4e3fa8f8932584a17f31">
+      <AitFile ErrorCode="0" Name="openmpt-mpg123.dll" Id="0000f51dbf572789d79b37287d1ab0ab4e8e34b9558e">
+        <AitCategory Id="Com">
+          <AitFeature Name="{00000000-0000-0000-0000-000000000001}" />
+        </AitCategory>
+        <AitCategory Id="ApiDynamic">
+          <AitFeature Name="kernel32.dll!AppPolicyGetProcessTerminationMethod" />
+          <AitFeature Name="kernel32.dll!AreFileApisANSI" />
+          <AitFeature Name="kernel32.dll!InitializeCriticalSectionEx" />
+          <AitFeature Name="kernel32.dll!LCMapStringEx" />
+          <AitFeature Name="kernel32.dll!LocaleNameToLCID" />
+          <AitFeature Name="mscoree.dll!CorExitProcess" />
+          <AitFeature Name="ntdll.dll!log" />
+          <AitFeature Name="ntdll.dll!pow" />
+        </AitCategory>
+        <AitCategory Id="ApiStatic">
+          <AitFeature Name="kernel32.dll!CloseHandle" />
+          <AitFeature Name="kernel32.dll!CreateFileW" />
+          <AitFeature Name="kernel32.dll!DeleteCriticalSection" />
+          <AitFeature Name="kernel32.dll!EncodePointer" />
+          <AitFeature Name="kernel32.dll!EnterCriticalSection" />
+          <AitFeature Name="kernel32.dll!ExitProcess" />
+          <AitFeature Name="kernel32.dll!FindClose" />
+          <AitFeature Name="kernel32.dll!FindFirstFileExW" />
+          <AitFeature Name="kernel32.dll!FindNextFileW" />
+          <AitFeature Name="kernel32.dll!FlsAlloc" />
+          <AitFeature Name="kernel32.dll!FlsFree" />
+          <AitFeature Name="kernel32.dll!FlsGetValue" />
+          <AitFeature Name="kernel32.dll!FlsSetValue" />
+          <AitFeature Name="kernel32.dll!FlushFileBuffers" />
+          <AitFeature Name="kernel32.dll!FreeEnvironmentStringsW" />
+          <AitFeature Name="kernel32.dll!FreeLibrary" />
+          <AitFeature Name="kernel32.dll!GetACP" />
+          <AitFeature Name="kernel32.dll!GetCPInfo" />
+          <AitFeature Name="kernel32.dll!GetCommandLineA" />
+          <AitFeature Name="kernel32.dll!GetCommandLineW" />
+          <AitFeature Name="kernel32.dll!GetConsoleMode" />
+          <AitFeature Name="kernel32.dll!GetConsoleOutputCP" />
+          <AitFeature Name="kernel32.dll!GetCurrentProcess" />
+          <AitFeature Name="kernel32.dll!GetCurrentProcessId" />
+          <AitFeature Name="kernel32.dll!GetCurrentThreadId" />
+          <AitFeature Name="kernel32.dll!GetEnvironmentStringsW" />
+          <AitFeature Name="kernel32.dll!GetFileSizeEx" />
+          <AitFeature Name="kernel32.dll!GetFileType" />
+          <AitFeature Name="kernel32.dll!GetLastError" />
+          <AitFeature Name="kernel32.dll!GetModuleFileNameW" />
+          <AitFeature Name="kernel32.dll!GetModuleHandleExW" />
+          <AitFeature Name="kernel32.dll!GetModuleHandleW" />
+          <AitFeature Name="kernel32.dll!GetOEMCP" />
+          <AitFeature Name="kernel32.dll!GetProcAddress" />
+          <AitFeature Name="kernel32.dll!GetProcessHeap" />
+          <AitFeature Name="kernel32.dll!GetStartupInfoW" />
+          <AitFeature Name="kernel32.dll!GetStdHandle" />
+          <AitFeature Name="kernel32.dll!GetStringTypeW" />
+          <AitFeature Name="kernel32.dll!GetSystemTimeAsFileTime" />
+          <AitFeature Name="kernel32.dll!HeapAlloc" />
+          <AitFeature Name="kernel32.dll!HeapFree" />
+          <AitFeature Name="kernel32.dll!HeapReAlloc" />
+          <AitFeature Name="kernel32.dll!HeapSize" />
+          <AitFeature Name="kernel32.dll!InitializeCriticalSectionAndSpinCount" />
+          <AitFeature Name="kernel32.dll!InitializeSListHead" />
+          <AitFeature Name="kernel32.dll!InterlockedFlushSList" />
+          <AitFeature Name="kernel32.dll!IsDebuggerPresent" />
+          <AitFeature Name="kernel32.dll!IsProcessorFeaturePresent" />
+          <AitFeature Name="kernel32.dll!IsValidCodePage" />
+          <AitFeature Name="kernel32.dll!LCMapStringW" />
+          <AitFeature Name="kernel32.dll!LeaveCriticalSection" />
+          <AitFeature Name="kernel32.dll!LoadLibraryExW" />
+          <AitFeature Name="kernel32.dll!MultiByteToWideChar" />
+          <AitFeature Name="kernel32.dll!QueryPerformanceCounter" />
+          <AitFeature Name="kernel32.dll!RaiseException" />
+          <AitFeature Name="kernel32.dll!ReadConsoleW" />
+          <AitFeature Name="kernel32.dll!ReadFile" />
+          <AitFeature Name="kernel32.dll!RtlCaptureContext" />
+          <AitFeature Name="kernel32.dll!RtlLookupFunctionEntry" />
+          <AitFeature Name="kernel32.dll!RtlPcToFileHeader" />
+          <AitFeature Name="kernel32.dll!RtlUnwindEx" />
+          <AitFeature Name="kernel32.dll!RtlVirtualUnwind" />
+          <AitFeature Name="kernel32.dll!SetEndOfFile" />
+          <AitFeature Name="kernel32.dll!SetFilePointerEx" />
+          <AitFeature Name="kernel32.dll!SetLastError" />
+          <AitFeature Name="kernel32.dll!SetStdHandle" />
+          <AitFeature Name="kernel32.dll!SetUnhandledExceptionFilter" />
+          <AitFeature Name="kernel32.dll!TerminateProcess" />
+          <AitFeature Name="kernel32.dll!TlsAlloc" />
+          <AitFeature Name="kernel32.dll!TlsFree" />
+          <AitFeature Name="kernel32.dll!TlsGetValue" />
+          <AitFeature Name="kernel32.dll!TlsSetValue" />
+          <AitFeature Name="kernel32.dll!UnhandledExceptionFilter" />
+          <AitFeature Name="kernel32.dll!WideCharToMultiByte" />
+          <AitFeature Name="kernel32.dll!WriteConsoleW" />
+          <AitFeature Name="kernel32.dll!WriteFile" />
+          <AitFeature Name="shlwapi.dll!PathIsRelativeW" />
+          <AitFeature Name="shlwapi.dll!PathIsUNCW" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="PluginBridge-x86.exe" Id="0000fea0dfe5d5b122fcca3474d2a67ee79260595e1a">
         <AitCategory Id="ApiStatic">
           <AitFeature Name="ole32.dll!CoInitializeEx" />
           <AitFeature Name="ole32.dll!CoUninitialize" />
@@ -1981,584 +2560,6 @@
           <AitFeature Name="ntdll.dll!sin" />
           <AitFeature Name="ntdll.dll!sqrt" />
           <AitFeature Name="ntdll.dll!tan" />
-          <AitFeature Name="dbghelp.dll!MiniDumpWriteDump" />
-        </AitCategory>
-      </AitFile>
-      <AitFile ErrorCode="0" Name="openmpt-mpg123.dll" Id="000059b1b21f7f8b7a60f973e8a4d1b0dccdf38051d9">
-        <AitCategory Id="Com">
-          <AitFeature Name="{00000000-0000-0000-0000-000000000001}" />
-        </AitCategory>
-        <AitCategory Id="ApiDynamic">
-          <AitFeature Name="kernel32.dll!AppPolicyGetProcessTerminationMethod" />
-          <AitFeature Name="kernel32.dll!AreFileApisANSI" />
-          <AitFeature Name="kernel32.dll!InitializeCriticalSectionEx" />
-          <AitFeature Name="kernel32.dll!LCMapStringEx" />
-          <AitFeature Name="kernel32.dll!LocaleNameToLCID" />
-          <AitFeature Name="mscoree.dll!CorExitProcess" />
-          <AitFeature Name="ntdll.dll!log" />
-          <AitFeature Name="ntdll.dll!pow" />
-        </AitCategory>
-        <AitCategory Id="ApiStatic">
-          <AitFeature Name="kernel32.dll!CloseHandle" />
-          <AitFeature Name="kernel32.dll!CreateFileW" />
-          <AitFeature Name="kernel32.dll!DeleteCriticalSection" />
-          <AitFeature Name="kernel32.dll!EncodePointer" />
-          <AitFeature Name="kernel32.dll!EnterCriticalSection" />
-          <AitFeature Name="kernel32.dll!ExitProcess" />
-          <AitFeature Name="kernel32.dll!FindClose" />
-          <AitFeature Name="kernel32.dll!FindFirstFileExW" />
-          <AitFeature Name="kernel32.dll!FindNextFileW" />
-          <AitFeature Name="kernel32.dll!FlsAlloc" />
-          <AitFeature Name="kernel32.dll!FlsFree" />
-          <AitFeature Name="kernel32.dll!FlsGetValue" />
-          <AitFeature Name="kernel32.dll!FlsSetValue" />
-          <AitFeature Name="kernel32.dll!FlushFileBuffers" />
-          <AitFeature Name="kernel32.dll!FreeEnvironmentStringsW" />
-          <AitFeature Name="kernel32.dll!FreeLibrary" />
-          <AitFeature Name="kernel32.dll!GetACP" />
-          <AitFeature Name="kernel32.dll!GetCPInfo" />
-          <AitFeature Name="kernel32.dll!GetCommandLineA" />
-          <AitFeature Name="kernel32.dll!GetCommandLineW" />
-          <AitFeature Name="kernel32.dll!GetConsoleMode" />
-          <AitFeature Name="kernel32.dll!GetConsoleOutputCP" />
-          <AitFeature Name="kernel32.dll!GetCurrentProcess" />
-          <AitFeature Name="kernel32.dll!GetCurrentProcessId" />
-          <AitFeature Name="kernel32.dll!GetCurrentThreadId" />
-          <AitFeature Name="kernel32.dll!GetEnvironmentStringsW" />
-          <AitFeature Name="kernel32.dll!GetFileSizeEx" />
-          <AitFeature Name="kernel32.dll!GetFileType" />
-          <AitFeature Name="kernel32.dll!GetLastError" />
-          <AitFeature Name="kernel32.dll!GetModuleFileNameW" />
-          <AitFeature Name="kernel32.dll!GetModuleHandleExW" />
-          <AitFeature Name="kernel32.dll!GetModuleHandleW" />
-          <AitFeature Name="kernel32.dll!GetOEMCP" />
-          <AitFeature Name="kernel32.dll!GetProcAddress" />
-          <AitFeature Name="kernel32.dll!GetProcessHeap" />
-          <AitFeature Name="kernel32.dll!GetStartupInfoW" />
-          <AitFeature Name="kernel32.dll!GetStdHandle" />
-          <AitFeature Name="kernel32.dll!GetStringTypeW" />
-          <AitFeature Name="kernel32.dll!GetSystemTimeAsFileTime" />
-          <AitFeature Name="kernel32.dll!HeapAlloc" />
-          <AitFeature Name="kernel32.dll!HeapFree" />
-          <AitFeature Name="kernel32.dll!HeapReAlloc" />
-          <AitFeature Name="kernel32.dll!HeapSize" />
-          <AitFeature Name="kernel32.dll!InitializeCriticalSectionAndSpinCount" />
-          <AitFeature Name="kernel32.dll!InitializeSListHead" />
-          <AitFeature Name="kernel32.dll!InterlockedFlushSList" />
-          <AitFeature Name="kernel32.dll!IsDebuggerPresent" />
-          <AitFeature Name="kernel32.dll!IsProcessorFeaturePresent" />
-          <AitFeature Name="kernel32.dll!IsValidCodePage" />
-          <AitFeature Name="kernel32.dll!LCMapStringW" />
-          <AitFeature Name="kernel32.dll!LeaveCriticalSection" />
-          <AitFeature Name="kernel32.dll!LoadLibraryExW" />
-          <AitFeature Name="kernel32.dll!MultiByteToWideChar" />
-          <AitFeature Name="kernel32.dll!QueryPerformanceCounter" />
-          <AitFeature Name="kernel32.dll!RaiseException" />
-          <AitFeature Name="kernel32.dll!ReadConsoleW" />
-          <AitFeature Name="kernel32.dll!ReadFile" />
-          <AitFeature Name="kernel32.dll!RtlCaptureContext" />
-          <AitFeature Name="kernel32.dll!RtlLookupFunctionEntry" />
-          <AitFeature Name="kernel32.dll!RtlPcToFileHeader" />
-          <AitFeature Name="kernel32.dll!RtlUnwindEx" />
-          <AitFeature Name="kernel32.dll!RtlVirtualUnwind" />
-          <AitFeature Name="kernel32.dll!SetEndOfFile" />
-          <AitFeature Name="kernel32.dll!SetFilePointerEx" />
-          <AitFeature Name="kernel32.dll!SetLastError" />
-          <AitFeature Name="kernel32.dll!SetStdHandle" />
-          <AitFeature Name="kernel32.dll!SetUnhandledExceptionFilter" />
-          <AitFeature Name="kernel32.dll!TerminateProcess" />
-          <AitFeature Name="kernel32.dll!TlsAlloc" />
-          <AitFeature Name="kernel32.dll!TlsFree" />
-          <AitFeature Name="kernel32.dll!TlsGetValue" />
-          <AitFeature Name="kernel32.dll!TlsSetValue" />
-          <AitFeature Name="kernel32.dll!UnhandledExceptionFilter" />
-          <AitFeature Name="kernel32.dll!WideCharToMultiByte" />
-          <AitFeature Name="kernel32.dll!WriteConsoleW" />
-          <AitFeature Name="kernel32.dll!WriteFile" />
-          <AitFeature Name="shlwapi.dll!PathIsRelativeW" />
-          <AitFeature Name="shlwapi.dll!PathIsUNCW" />
-        </AitCategory>
-      </AitFile>
-      <AitFile ErrorCode="0" Name="PluginBridge-arm.exe" Id="00007ada4524bb5b8843b1e1fdbb747827fce230ec67">
-        <AitCategory Id="ApiStatic">
-          <AitFeature Name="ole32.dll!CoInitializeEx" />
-          <AitFeature Name="ole32.dll!CoUninitialize" />
-          <AitFeature Name="kernel32.dll!CloseHandle" />
-          <AitFeature Name="kernel32.dll!CreateDirectoryW" />
-          <AitFeature Name="kernel32.dll!CreateEventW" />
-          <AitFeature Name="kernel32.dll!CreateFileMappingW" />
-          <AitFeature Name="kernel32.dll!CreateFileW" />
-          <AitFeature Name="kernel32.dll!CreateThread" />
-          <AitFeature Name="kernel32.dll!DeleteCriticalSection" />
-          <AitFeature Name="kernel32.dll!DuplicateHandle" />
-          <AitFeature Name="kernel32.dll!EncodePointer" />
-          <AitFeature Name="kernel32.dll!EnterCriticalSection" />
-          <AitFeature Name="kernel32.dll!ExitProcess" />
-          <AitFeature Name="kernel32.dll!FindClose" />
-          <AitFeature Name="kernel32.dll!FindFirstFileExW" />
-          <AitFeature Name="kernel32.dll!FindNextFileW" />
-          <AitFeature Name="kernel32.dll!FlsAlloc" />
-          <AitFeature Name="kernel32.dll!FlsFree" />
-          <AitFeature Name="kernel32.dll!FlsGetValue" />
-          <AitFeature Name="kernel32.dll!FlsSetValue" />
-          <AitFeature Name="kernel32.dll!FlushFileBuffers" />
-          <AitFeature Name="kernel32.dll!FormatMessageW" />
-          <AitFeature Name="kernel32.dll!FreeEnvironmentStringsW" />
-          <AitFeature Name="kernel32.dll!FreeLibrary" />
-          <AitFeature Name="kernel32.dll!GetACP" />
-          <AitFeature Name="kernel32.dll!GetCPInfo" />
-          <AitFeature Name="kernel32.dll!GetCommandLineA" />
-          <AitFeature Name="kernel32.dll!GetCommandLineW" />
-          <AitFeature Name="kernel32.dll!GetConsoleMode" />
-          <AitFeature Name="kernel32.dll!GetConsoleOutputCP" />
-          <AitFeature Name="kernel32.dll!GetCurrentProcess" />
-          <AitFeature Name="kernel32.dll!GetCurrentProcessId" />
-          <AitFeature Name="kernel32.dll!GetCurrentThreadId" />
-          <AitFeature Name="kernel32.dll!GetDateFormatW" />
-          <AitFeature Name="kernel32.dll!GetEnvironmentStringsW" />
-          <AitFeature Name="kernel32.dll!GetFileType" />
-          <AitFeature Name="kernel32.dll!GetLastError" />
-          <AitFeature Name="kernel32.dll!GetModuleFileNameW" />
-          <AitFeature Name="kernel32.dll!GetModuleHandleExW" />
-          <AitFeature Name="kernel32.dll!GetModuleHandleW" />
-          <AitFeature Name="kernel32.dll!GetOEMCP" />
-          <AitFeature Name="kernel32.dll!GetProcAddress" />
-          <AitFeature Name="kernel32.dll!GetProcessHeap" />
-          <AitFeature Name="kernel32.dll!GetStartupInfoW" />
-          <AitFeature Name="kernel32.dll!GetStdHandle" />
-          <AitFeature Name="kernel32.dll!GetStringTypeW" />
-          <AitFeature Name="kernel32.dll!GetSystemTimeAsFileTime" />
-          <AitFeature Name="kernel32.dll!GetTempPathW" />
-          <AitFeature Name="kernel32.dll!GetTimeFormatW" />
-          <AitFeature Name="kernel32.dll!HeapAlloc" />
-          <AitFeature Name="kernel32.dll!HeapFree" />
-          <AitFeature Name="kernel32.dll!HeapReAlloc" />
-          <AitFeature Name="kernel32.dll!HeapSize" />
-          <AitFeature Name="kernel32.dll!InitializeCriticalSectionAndSpinCount" />
-          <AitFeature Name="kernel32.dll!InitializeCriticalSectionEx" />
-          <AitFeature Name="kernel32.dll!InitializeSListHead" />
-          <AitFeature Name="kernel32.dll!IsProcessorFeaturePresent" />
-          <AitFeature Name="kernel32.dll!IsValidCodePage" />
-          <AitFeature Name="kernel32.dll!LCMapStringW" />
-          <AitFeature Name="kernel32.dll!LeaveCriticalSection" />
-          <AitFeature Name="kernel32.dll!LoadLibraryExW" />
-          <AitFeature Name="kernel32.dll!LoadLibraryW" />
-          <AitFeature Name="kernel32.dll!MapViewOfFile" />
-          <AitFeature Name="kernel32.dll!MultiByteToWideChar" />
-          <AitFeature Name="kernel32.dll!OpenFileMappingW" />
-          <AitFeature Name="kernel32.dll!OpenProcess" />
-          <AitFeature Name="kernel32.dll!QueryPerformanceCounter" />
-          <AitFeature Name="kernel32.dll!RaiseException" />
-          <AitFeature Name="kernel32.dll!RtlLookupFunctionEntry" />
-          <AitFeature Name="kernel32.dll!RtlPcToFileHeader" />
-          <AitFeature Name="kernel32.dll!RtlUnwindEx" />
-          <AitFeature Name="kernel32.dll!SetEvent" />
-          <AitFeature Name="kernel32.dll!SetFilePointerEx" />
-          <AitFeature Name="kernel32.dll!SetLastError" />
-          <AitFeature Name="kernel32.dll!SetStdHandle" />
-          <AitFeature Name="kernel32.dll!SetThreadPriority" />
-          <AitFeature Name="kernel32.dll!SetUnhandledExceptionFilter" />
-          <AitFeature Name="kernel32.dll!SignalObjectAndWait" />
-          <AitFeature Name="kernel32.dll!TerminateProcess" />
-          <AitFeature Name="kernel32.dll!UnmapViewOfFile" />
-          <AitFeature Name="kernel32.dll!WaitForMultipleObjects" />
-          <AitFeature Name="kernel32.dll!WideCharToMultiByte" />
-          <AitFeature Name="kernel32.dll!WriteConsoleW" />
-          <AitFeature Name="kernel32.dll!WriteFile" />
-          <AitFeature Name="shell32.dll!CommandLineToArgvW" />
-          <AitFeature Name="user32.dll!CreateWindowExW" />
-          <AitFeature Name="user32.dll!DefWindowProcW" />
-          <AitFeature Name="user32.dll!DestroyWindow" />
-          <AitFeature Name="user32.dll!DispatchMessageW" />
-          <AitFeature Name="user32.dll!GetClassWord" />
-          <AitFeature Name="user32.dll!GetClientRect" />
-          <AitFeature Name="user32.dll!GetMessageW" />
-          <AitFeature Name="user32.dll!GetParent" />
-          <AitFeature Name="user32.dll!GetWindow" />
-          <AitFeature Name="user32.dll!GetWindowLongW" />
-          <AitFeature Name="user32.dll!LoadCursorW" />
-          <AitFeature Name="user32.dll!MessageBoxW" />
-          <AitFeature Name="user32.dll!PostMessageW" />
-          <AitFeature Name="user32.dll!PostQuitMessage" />
-          <AitFeature Name="user32.dll!RegisterClassExW" />
-          <AitFeature Name="user32.dll!SendMessageW" />
-          <AitFeature Name="user32.dll!SetTimer" />
-          <AitFeature Name="user32.dll!SetWindowLongW" />
-          <AitFeature Name="user32.dll!SetWindowPos" />
-          <AitFeature Name="user32.dll!TranslateMessage" />
-        </AitCategory>
-        <AitCategory Id="ApiDynamic">
-          <AitFeature Name="kernel32.dll!AppPolicyGetProcessTerminationMethod" />
-          <AitFeature Name="kernel32.dll!AreFileApisANSI" />
-          <AitFeature Name="kernel32.dll!LCMapStringEx" />
-          <AitFeature Name="kernel32.dll!LocaleNameToLCID" />
-          <AitFeature Name="mscoree.dll!CorExitProcess" />
-          <AitFeature Name="dbghelp.dll!MiniDumpWriteDump" />
-        </AitCategory>
-      </AitFile>
-      <AitFile ErrorCode="0" Name="PluginBridgeLegacy-arm.exe" Id="000080cbbebe4fbe6f2a3e8dd037f465de7d816489d0">
-        <AitCategory Id="ApiStatic">
-          <AitFeature Name="ole32.dll!CoInitializeEx" />
-          <AitFeature Name="ole32.dll!CoUninitialize" />
-          <AitFeature Name="kernel32.dll!CloseHandle" />
-          <AitFeature Name="kernel32.dll!CreateDirectoryW" />
-          <AitFeature Name="kernel32.dll!CreateEventW" />
-          <AitFeature Name="kernel32.dll!CreateFileMappingW" />
-          <AitFeature Name="kernel32.dll!CreateFileW" />
-          <AitFeature Name="kernel32.dll!CreateThread" />
-          <AitFeature Name="kernel32.dll!DeleteCriticalSection" />
-          <AitFeature Name="kernel32.dll!DuplicateHandle" />
-          <AitFeature Name="kernel32.dll!EncodePointer" />
-          <AitFeature Name="kernel32.dll!EnterCriticalSection" />
-          <AitFeature Name="kernel32.dll!ExitProcess" />
-          <AitFeature Name="kernel32.dll!FindClose" />
-          <AitFeature Name="kernel32.dll!FindFirstFileExW" />
-          <AitFeature Name="kernel32.dll!FindNextFileW" />
-          <AitFeature Name="kernel32.dll!FlsAlloc" />
-          <AitFeature Name="kernel32.dll!FlsFree" />
-          <AitFeature Name="kernel32.dll!FlsGetValue" />
-          <AitFeature Name="kernel32.dll!FlsSetValue" />
-          <AitFeature Name="kernel32.dll!FlushFileBuffers" />
-          <AitFeature Name="kernel32.dll!FormatMessageW" />
-          <AitFeature Name="kernel32.dll!FreeEnvironmentStringsW" />
-          <AitFeature Name="kernel32.dll!FreeLibrary" />
-          <AitFeature Name="kernel32.dll!GetACP" />
-          <AitFeature Name="kernel32.dll!GetCPInfo" />
-          <AitFeature Name="kernel32.dll!GetCommandLineA" />
-          <AitFeature Name="kernel32.dll!GetCommandLineW" />
-          <AitFeature Name="kernel32.dll!GetConsoleMode" />
-          <AitFeature Name="kernel32.dll!GetConsoleOutputCP" />
-          <AitFeature Name="kernel32.dll!GetCurrentProcess" />
-          <AitFeature Name="kernel32.dll!GetCurrentProcessId" />
-          <AitFeature Name="kernel32.dll!GetCurrentThreadId" />
-          <AitFeature Name="kernel32.dll!GetDateFormatW" />
-          <AitFeature Name="kernel32.dll!GetEnvironmentStringsW" />
-          <AitFeature Name="kernel32.dll!GetFileType" />
-          <AitFeature Name="kernel32.dll!GetLastError" />
-          <AitFeature Name="kernel32.dll!GetModuleFileNameW" />
-          <AitFeature Name="kernel32.dll!GetModuleHandleExW" />
-          <AitFeature Name="kernel32.dll!GetModuleHandleW" />
-          <AitFeature Name="kernel32.dll!GetOEMCP" />
-          <AitFeature Name="kernel32.dll!GetProcAddress" />
-          <AitFeature Name="kernel32.dll!GetProcessHeap" />
-          <AitFeature Name="kernel32.dll!GetStartupInfoW" />
-          <AitFeature Name="kernel32.dll!GetStdHandle" />
-          <AitFeature Name="kernel32.dll!GetStringTypeW" />
-          <AitFeature Name="kernel32.dll!GetSystemTimeAsFileTime" />
-          <AitFeature Name="kernel32.dll!GetTempPathW" />
-          <AitFeature Name="kernel32.dll!GetTimeFormatW" />
-          <AitFeature Name="kernel32.dll!HeapAlloc" />
-          <AitFeature Name="kernel32.dll!HeapFree" />
-          <AitFeature Name="kernel32.dll!HeapReAlloc" />
-          <AitFeature Name="kernel32.dll!HeapSize" />
-          <AitFeature Name="kernel32.dll!InitializeCriticalSectionAndSpinCount" />
-          <AitFeature Name="kernel32.dll!InitializeCriticalSectionEx" />
-          <AitFeature Name="kernel32.dll!InitializeSListHead" />
-          <AitFeature Name="kernel32.dll!IsProcessorFeaturePresent" />
-          <AitFeature Name="kernel32.dll!IsValidCodePage" />
-          <AitFeature Name="kernel32.dll!LCMapStringW" />
-          <AitFeature Name="kernel32.dll!LeaveCriticalSection" />
-          <AitFeature Name="kernel32.dll!LoadLibraryExW" />
-          <AitFeature Name="kernel32.dll!LoadLibraryW" />
-          <AitFeature Name="kernel32.dll!MapViewOfFile" />
-          <AitFeature Name="kernel32.dll!MultiByteToWideChar" />
-          <AitFeature Name="kernel32.dll!OpenFileMappingW" />
-          <AitFeature Name="kernel32.dll!OpenProcess" />
-          <AitFeature Name="kernel32.dll!QueryPerformanceCounter" />
-          <AitFeature Name="kernel32.dll!RaiseException" />
-          <AitFeature Name="kernel32.dll!RtlLookupFunctionEntry" />
-          <AitFeature Name="kernel32.dll!RtlPcToFileHeader" />
-          <AitFeature Name="kernel32.dll!RtlUnwindEx" />
-          <AitFeature Name="kernel32.dll!SetEvent" />
-          <AitFeature Name="kernel32.dll!SetFilePointerEx" />
-          <AitFeature Name="kernel32.dll!SetLastError" />
-          <AitFeature Name="kernel32.dll!SetStdHandle" />
-          <AitFeature Name="kernel32.dll!SetThreadPriority" />
-          <AitFeature Name="kernel32.dll!SetUnhandledExceptionFilter" />
-          <AitFeature Name="kernel32.dll!SignalObjectAndWait" />
-          <AitFeature Name="kernel32.dll!TerminateProcess" />
-          <AitFeature Name="kernel32.dll!UnmapViewOfFile" />
-          <AitFeature Name="kernel32.dll!WaitForMultipleObjects" />
-          <AitFeature Name="kernel32.dll!WideCharToMultiByte" />
-          <AitFeature Name="kernel32.dll!WriteConsoleW" />
-          <AitFeature Name="kernel32.dll!WriteFile" />
-          <AitFeature Name="shell32.dll!CommandLineToArgvW" />
-          <AitFeature Name="user32.dll!CreateWindowExW" />
-          <AitFeature Name="user32.dll!DefWindowProcW" />
-          <AitFeature Name="user32.dll!DestroyWindow" />
-          <AitFeature Name="user32.dll!DispatchMessageW" />
-          <AitFeature Name="user32.dll!GetClassWord" />
-          <AitFeature Name="user32.dll!GetClientRect" />
-          <AitFeature Name="user32.dll!GetMessageW" />
-          <AitFeature Name="user32.dll!GetParent" />
-          <AitFeature Name="user32.dll!GetWindow" />
-          <AitFeature Name="user32.dll!GetWindowLongW" />
-          <AitFeature Name="user32.dll!LoadCursorW" />
-          <AitFeature Name="user32.dll!MessageBoxW" />
-          <AitFeature Name="user32.dll!PostMessageW" />
-          <AitFeature Name="user32.dll!PostQuitMessage" />
-          <AitFeature Name="user32.dll!RegisterClassExW" />
-          <AitFeature Name="user32.dll!SendMessageW" />
-          <AitFeature Name="user32.dll!SetTimer" />
-          <AitFeature Name="user32.dll!SetWindowLongW" />
-          <AitFeature Name="user32.dll!SetWindowPos" />
-          <AitFeature Name="user32.dll!TranslateMessage" />
-        </AitCategory>
-        <AitCategory Id="ApiDynamic">
-          <AitFeature Name="kernel32.dll!AppPolicyGetProcessTerminationMethod" />
-          <AitFeature Name="kernel32.dll!AreFileApisANSI" />
-          <AitFeature Name="kernel32.dll!LCMapStringEx" />
-          <AitFeature Name="kernel32.dll!LocaleNameToLCID" />
-          <AitFeature Name="mscoree.dll!CorExitProcess" />
-          <AitFeature Name="dbghelp.dll!MiniDumpWriteDump" />
-        </AitCategory>
-      </AitFile>
-      <AitFile ErrorCode="0" Name="PluginBridgeLegacy-amd64.exe" Id="000086e2a9235c32ff9f3c1f8e9f662a23bfa3446b90">
-        <AitCategory Id="Com">
-          <AitFeature Name="{00000000-0000-0000-0000-000000000001}" />
-        </AitCategory>
-        <AitCategory Id="ApiStatic">
-          <AitFeature Name="ole32.dll!CoInitializeEx" />
-          <AitFeature Name="ole32.dll!CoUninitialize" />
-          <AitFeature Name="kernel32.dll!CloseHandle" />
-          <AitFeature Name="kernel32.dll!CreateDirectoryW" />
-          <AitFeature Name="kernel32.dll!CreateEventW" />
-          <AitFeature Name="kernel32.dll!CreateFileMappingW" />
-          <AitFeature Name="kernel32.dll!CreateFileW" />
-          <AitFeature Name="kernel32.dll!CreateThread" />
-          <AitFeature Name="kernel32.dll!DeleteCriticalSection" />
-          <AitFeature Name="kernel32.dll!DuplicateHandle" />
-          <AitFeature Name="kernel32.dll!EncodePointer" />
-          <AitFeature Name="kernel32.dll!EnterCriticalSection" />
-          <AitFeature Name="kernel32.dll!ExitProcess" />
-          <AitFeature Name="kernel32.dll!FindClose" />
-          <AitFeature Name="kernel32.dll!FindFirstFileExW" />
-          <AitFeature Name="kernel32.dll!FindNextFileW" />
-          <AitFeature Name="kernel32.dll!FlsAlloc" />
-          <AitFeature Name="kernel32.dll!FlsFree" />
-          <AitFeature Name="kernel32.dll!FlsGetValue" />
-          <AitFeature Name="kernel32.dll!FlsSetValue" />
-          <AitFeature Name="kernel32.dll!FlushFileBuffers" />
-          <AitFeature Name="kernel32.dll!FormatMessageW" />
-          <AitFeature Name="kernel32.dll!FreeEnvironmentStringsW" />
-          <AitFeature Name="kernel32.dll!FreeLibrary" />
-          <AitFeature Name="kernel32.dll!GetACP" />
-          <AitFeature Name="kernel32.dll!GetCPInfo" />
-          <AitFeature Name="kernel32.dll!GetCommandLineA" />
-          <AitFeature Name="kernel32.dll!GetCommandLineW" />
-          <AitFeature Name="kernel32.dll!GetConsoleMode" />
-          <AitFeature Name="kernel32.dll!GetConsoleOutputCP" />
-          <AitFeature Name="kernel32.dll!GetCurrentProcess" />
-          <AitFeature Name="kernel32.dll!GetCurrentProcessId" />
-          <AitFeature Name="kernel32.dll!GetCurrentThreadId" />
-          <AitFeature Name="kernel32.dll!GetDateFormatW" />
-          <AitFeature Name="kernel32.dll!GetEnvironmentStringsW" />
-          <AitFeature Name="kernel32.dll!GetFileType" />
-          <AitFeature Name="kernel32.dll!GetLastError" />
-          <AitFeature Name="kernel32.dll!GetModuleFileNameW" />
-          <AitFeature Name="kernel32.dll!GetModuleHandleExW" />
-          <AitFeature Name="kernel32.dll!GetModuleHandleW" />
-          <AitFeature Name="kernel32.dll!GetOEMCP" />
-          <AitFeature Name="kernel32.dll!GetProcAddress" />
-          <AitFeature Name="kernel32.dll!GetProcessHeap" />
-          <AitFeature Name="kernel32.dll!GetStartupInfoW" />
-          <AitFeature Name="kernel32.dll!GetStdHandle" />
-          <AitFeature Name="kernel32.dll!GetStringTypeW" />
-          <AitFeature Name="kernel32.dll!GetSystemTimeAsFileTime" />
-          <AitFeature Name="kernel32.dll!GetTempPathW" />
-          <AitFeature Name="kernel32.dll!GetTimeFormatW" />
-          <AitFeature Name="kernel32.dll!HeapAlloc" />
-          <AitFeature Name="kernel32.dll!HeapFree" />
-          <AitFeature Name="kernel32.dll!HeapReAlloc" />
-          <AitFeature Name="kernel32.dll!HeapSize" />
-          <AitFeature Name="kernel32.dll!InitializeCriticalSectionAndSpinCount" />
-          <AitFeature Name="kernel32.dll!InitializeSListHead" />
-          <AitFeature Name="kernel32.dll!IsDebuggerPresent" />
-          <AitFeature Name="kernel32.dll!IsProcessorFeaturePresent" />
-          <AitFeature Name="kernel32.dll!IsValidCodePage" />
-          <AitFeature Name="kernel32.dll!LCMapStringW" />
-          <AitFeature Name="kernel32.dll!LeaveCriticalSection" />
-          <AitFeature Name="kernel32.dll!LoadLibraryExW" />
-          <AitFeature Name="kernel32.dll!LoadLibraryW" />
-          <AitFeature Name="kernel32.dll!MapViewOfFile" />
-          <AitFeature Name="kernel32.dll!MultiByteToWideChar" />
-          <AitFeature Name="kernel32.dll!OpenFileMappingW" />
-          <AitFeature Name="kernel32.dll!OpenProcess" />
-          <AitFeature Name="kernel32.dll!QueryPerformanceCounter" />
-          <AitFeature Name="kernel32.dll!RaiseException" />
-          <AitFeature Name="kernel32.dll!RtlCaptureContext" />
-          <AitFeature Name="kernel32.dll!RtlLookupFunctionEntry" />
-          <AitFeature Name="kernel32.dll!RtlPcToFileHeader" />
-          <AitFeature Name="kernel32.dll!RtlUnwindEx" />
-          <AitFeature Name="kernel32.dll!RtlVirtualUnwind" />
-          <AitFeature Name="kernel32.dll!SetEvent" />
-          <AitFeature Name="kernel32.dll!SetFilePointerEx" />
-          <AitFeature Name="kernel32.dll!SetLastError" />
-          <AitFeature Name="kernel32.dll!SetStdHandle" />
-          <AitFeature Name="kernel32.dll!SetThreadPriority" />
-          <AitFeature Name="kernel32.dll!SetUnhandledExceptionFilter" />
-          <AitFeature Name="kernel32.dll!SignalObjectAndWait" />
-          <AitFeature Name="kernel32.dll!TerminateProcess" />
-          <AitFeature Name="kernel32.dll!TlsAlloc" />
-          <AitFeature Name="kernel32.dll!TlsFree" />
-          <AitFeature Name="kernel32.dll!TlsGetValue" />
-          <AitFeature Name="kernel32.dll!TlsSetValue" />
-          <AitFeature Name="kernel32.dll!UnhandledExceptionFilter" />
-          <AitFeature Name="kernel32.dll!UnmapViewOfFile" />
-          <AitFeature Name="kernel32.dll!WaitForMultipleObjects" />
-          <AitFeature Name="kernel32.dll!WideCharToMultiByte" />
-          <AitFeature Name="kernel32.dll!WriteConsoleW" />
-          <AitFeature Name="kernel32.dll!WriteFile" />
-          <AitFeature Name="shell32.dll!CommandLineToArgvW" />
-          <AitFeature Name="user32.dll!CreateWindowExW" />
-          <AitFeature Name="user32.dll!DefWindowProcW" />
-          <AitFeature Name="user32.dll!DestroyWindow" />
-          <AitFeature Name="user32.dll!DispatchMessageW" />
-          <AitFeature Name="user32.dll!GetClassWord" />
-          <AitFeature Name="user32.dll!GetClientRect" />
-          <AitFeature Name="user32.dll!GetMessageW" />
-          <AitFeature Name="user32.dll!GetParent" />
-          <AitFeature Name="user32.dll!GetWindow" />
-          <AitFeature Name="user32.dll!GetWindowLongPtrW" />
-          <AitFeature Name="user32.dll!GetWindowLongW" />
-          <AitFeature Name="user32.dll!LoadCursorW" />
-          <AitFeature Name="user32.dll!MessageBoxW" />
-          <AitFeature Name="user32.dll!PostMessageW" />
-          <AitFeature Name="user32.dll!PostQuitMessage" />
-          <AitFeature Name="user32.dll!RegisterClassExW" />
-          <AitFeature Name="user32.dll!SendMessageW" />
-          <AitFeature Name="user32.dll!SetTimer" />
-          <AitFeature Name="user32.dll!SetWindowLongPtrW" />
-          <AitFeature Name="user32.dll!SetWindowPos" />
-          <AitFeature Name="user32.dll!TranslateMessage" />
-        </AitCategory>
-        <AitCategory Id="ApiDynamic">
-          <AitFeature Name="kernel32.dll!AppPolicyGetProcessTerminationMethod" />
-          <AitFeature Name="kernel32.dll!AreFileApisANSI" />
-          <AitFeature Name="kernel32.dll!InitializeCriticalSectionEx" />
-          <AitFeature Name="kernel32.dll!LCMapStringEx" />
-          <AitFeature Name="kernel32.dll!LocaleNameToLCID" />
-          <AitFeature Name="mscoree.dll!CorExitProcess" />
-          <AitFeature Name="dbghelp.dll!MiniDumpWriteDump" />
-        </AitCategory>
-      </AitFile>
-      <AitFile ErrorCode="0" Name="PluginBridge-arm64.exe" Id="0000dd40628082948f78623bdabd10bf0c2074d0a6eb">
-        <AitCategory Id="Com">
-          <AitFeature Name="{00000000-0000-0000-0000-000000000001}" />
-        </AitCategory>
-        <AitCategory Id="ApiStatic">
-          <AitFeature Name="ole32.dll!CoInitializeEx" />
-          <AitFeature Name="ole32.dll!CoUninitialize" />
-          <AitFeature Name="kernel32.dll!CloseHandle" />
-          <AitFeature Name="kernel32.dll!CreateDirectoryW" />
-          <AitFeature Name="kernel32.dll!CreateEventW" />
-          <AitFeature Name="kernel32.dll!CreateFileMappingW" />
-          <AitFeature Name="kernel32.dll!CreateFileW" />
-          <AitFeature Name="kernel32.dll!CreateThread" />
-          <AitFeature Name="kernel32.dll!DeleteCriticalSection" />
-          <AitFeature Name="kernel32.dll!DuplicateHandle" />
-          <AitFeature Name="kernel32.dll!EncodePointer" />
-          <AitFeature Name="kernel32.dll!EnterCriticalSection" />
-          <AitFeature Name="kernel32.dll!ExitProcess" />
-          <AitFeature Name="kernel32.dll!FindClose" />
-          <AitFeature Name="kernel32.dll!FindFirstFileExW" />
-          <AitFeature Name="kernel32.dll!FindNextFileW" />
-          <AitFeature Name="kernel32.dll!FlsAlloc" />
-          <AitFeature Name="kernel32.dll!FlsFree" />
-          <AitFeature Name="kernel32.dll!FlsGetValue" />
-          <AitFeature Name="kernel32.dll!FlsSetValue" />
-          <AitFeature Name="kernel32.dll!FlushFileBuffers" />
-          <AitFeature Name="kernel32.dll!FormatMessageW" />
-          <AitFeature Name="kernel32.dll!FreeEnvironmentStringsW" />
-          <AitFeature Name="kernel32.dll!FreeLibrary" />
-          <AitFeature Name="kernel32.dll!GetACP" />
-          <AitFeature Name="kernel32.dll!GetCPInfo" />
-          <AitFeature Name="kernel32.dll!GetCommandLineA" />
-          <AitFeature Name="kernel32.dll!GetCommandLineW" />
-          <AitFeature Name="kernel32.dll!GetConsoleMode" />
-          <AitFeature Name="kernel32.dll!GetConsoleOutputCP" />
-          <AitFeature Name="kernel32.dll!GetCurrentProcess" />
-          <AitFeature Name="kernel32.dll!GetCurrentProcessId" />
-          <AitFeature Name="kernel32.dll!GetCurrentThreadId" />
-          <AitFeature Name="kernel32.dll!GetDateFormatW" />
-          <AitFeature Name="kernel32.dll!GetEnvironmentStringsW" />
-          <AitFeature Name="kernel32.dll!GetFileType" />
-          <AitFeature Name="kernel32.dll!GetLastError" />
-          <AitFeature Name="kernel32.dll!GetModuleFileNameW" />
-          <AitFeature Name="kernel32.dll!GetModuleHandleExW" />
-          <AitFeature Name="kernel32.dll!GetModuleHandleW" />
-          <AitFeature Name="kernel32.dll!GetOEMCP" />
-          <AitFeature Name="kernel32.dll!GetProcAddress" />
-          <AitFeature Name="kernel32.dll!GetProcessHeap" />
-          <AitFeature Name="kernel32.dll!GetStartupInfoW" />
-          <AitFeature Name="kernel32.dll!GetStdHandle" />
-          <AitFeature Name="kernel32.dll!GetStringTypeW" />
-          <AitFeature Name="kernel32.dll!GetSystemTimeAsFileTime" />
-          <AitFeature Name="kernel32.dll!GetTempPathW" />
-          <AitFeature Name="kernel32.dll!GetTimeFormatW" />
-          <AitFeature Name="kernel32.dll!HeapAlloc" />
-          <AitFeature Name="kernel32.dll!HeapFree" />
-          <AitFeature Name="kernel32.dll!HeapReAlloc" />
-          <AitFeature Name="kernel32.dll!HeapSize" />
-          <AitFeature Name="kernel32.dll!InitializeCriticalSectionAndSpinCount" />
-          <AitFeature Name="kernel32.dll!InitializeCriticalSectionEx" />
-          <AitFeature Name="kernel32.dll!InitializeSListHead" />
-          <AitFeature Name="kernel32.dll!IsValidCodePage" />
-          <AitFeature Name="kernel32.dll!LCMapStringW" />
-          <AitFeature Name="kernel32.dll!LeaveCriticalSection" />
-          <AitFeature Name="kernel32.dll!LoadLibraryExW" />
-          <AitFeature Name="kernel32.dll!LoadLibraryW" />
-          <AitFeature Name="kernel32.dll!MapViewOfFile" />
-          <AitFeature Name="kernel32.dll!MultiByteToWideChar" />
-          <AitFeature Name="kernel32.dll!OpenFileMappingW" />
-          <AitFeature Name="kernel32.dll!OpenProcess" />
-          <AitFeature Name="kernel32.dll!QueryPerformanceCounter" />
-          <AitFeature Name="kernel32.dll!RaiseException" />
-          <AitFeature Name="kernel32.dll!RtlLookupFunctionEntry" />
-          <AitFeature Name="kernel32.dll!RtlPcToFileHeader" />
-          <AitFeature Name="kernel32.dll!RtlUnwindEx" />
-          <AitFeature Name="kernel32.dll!SetEvent" />
-          <AitFeature Name="kernel32.dll!SetFilePointerEx" />
-          <AitFeature Name="kernel32.dll!SetLastError" />
-          <AitFeature Name="kernel32.dll!SetStdHandle" />
-          <AitFeature Name="kernel32.dll!SetThreadPriority" />
-          <AitFeature Name="kernel32.dll!SetUnhandledExceptionFilter" />
-          <AitFeature Name="kernel32.dll!SignalObjectAndWait" />
-          <AitFeature Name="kernel32.dll!TerminateProcess" />
-          <AitFeature Name="kernel32.dll!UnmapViewOfFile" />
-          <AitFeature Name="kernel32.dll!WaitForMultipleObjects" />
-          <AitFeature Name="kernel32.dll!WideCharToMultiByte" />
-          <AitFeature Name="kernel32.dll!WriteConsoleW" />
-          <AitFeature Name="kernel32.dll!WriteFile" />
-          <AitFeature Name="shell32.dll!CommandLineToArgvW" />
-          <AitFeature Name="user32.dll!CreateWindowExW" />
-          <AitFeature Name="user32.dll!DefWindowProcW" />
-          <AitFeature Name="user32.dll!DestroyWindow" />
-          <AitFeature Name="user32.dll!DispatchMessageW" />
-          <AitFeature Name="user32.dll!GetClassWord" />
-          <AitFeature Name="user32.dll!GetClientRect" />
-          <AitFeature Name="user32.dll!GetMessageW" />
-          <AitFeature Name="user32.dll!GetParent" />
-          <AitFeature Name="user32.dll!GetWindow" />
-          <AitFeature Name="user32.dll!GetWindowLongPtrW" />
-          <AitFeature Name="user32.dll!GetWindowLongW" />
-          <AitFeature Name="user32.dll!LoadCursorW" />
-          <AitFeature Name="user32.dll!MessageBoxW" />
-          <AitFeature Name="user32.dll!PostMessageW" />
-          <AitFeature Name="user32.dll!PostQuitMessage" />
-          <AitFeature Name="user32.dll!RegisterClassExW" />
-          <AitFeature Name="user32.dll!SendMessageW" />
-          <AitFeature Name="user32.dll!SetTimer" />
-          <AitFeature Name="user32.dll!SetWindowLongPtrW" />
-          <AitFeature Name="user32.dll!SetWindowPos" />
-          <AitFeature Name="user32.dll!TranslateMessage" />
-        </AitCategory>
-        <AitCategory Id="ApiDynamic">
-          <AitFeature Name="kernel32.dll!AppPolicyGetProcessTerminationMethod" />
-          <AitFeature Name="kernel32.dll!AreFileApisANSI" />
-          <AitFeature Name="kernel32.dll!LCMapStringEx" />
-          <AitFeature Name="kernel32.dll!LocaleNameToLCID" />
-          <AitFeature Name="mscoree.dll!CorExitProcess" />
           <AitFeature Name="dbghelp.dll!MiniDumpWriteDump" />
         </AitCategory>
       </AitFile>
